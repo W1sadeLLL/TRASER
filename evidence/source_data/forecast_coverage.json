@@ -1,0 +1,41 @@
+{
+  "all_declared_origins_and_seeds": true,
+  "conditions": [
+    {
+      "dataset": "blm_x",
+      "hours": 6,
+      "origins": 11,
+      "unique_complete_origin_group_seed_records": 99
+    },
+    {
+      "dataset": "blm_x",
+      "hours": 12,
+      "origins": 5,
+      "unique_complete_origin_group_seed_records": 45
+    },
+    {
+      "dataset": "blm_x",
+      "hours": 24,
+      "origins": 2,
+      "unique_complete_origin_group_seed_records": 18
+    },
+    {
+      "dataset": "hk_weibo",
+      "hours": 3,
+      "origins": 235,
+      "unique_complete_origin_group_seed_records": 2115
+    },
+    {
+      "dataset": "hk_weibo",
+      "hours": 6,
+      "origins": 123,
+      "unique_complete_origin_group_seed_records": 1107
+    },
+    {
+      "dataset": "hk_weibo",
+      "hours": 12,
+      "origins": 63,
+      "unique_complete_origin_group_seed_records": 567
+    }
+  ]
+}

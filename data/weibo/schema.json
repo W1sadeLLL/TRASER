@@ -1,0 +1,74 @@
+{
+  "release_version": "0.1.1",
+  "rows": 62804,
+  "encoding": "UTF-8",
+  "csv_dialect": "RFC4180 quoted multiline fields; LF",
+  "privacy_processed": true,
+  "fields": [
+    "source_row",
+    "occurrence_id",
+    "content",
+    "publish_time",
+    "publish_time_utc",
+    "repost_count",
+    "comment_count",
+    "like_count"
+  ],
+  "field_definitions": {
+    "source_row": {
+      "type": "integer",
+      "privacy_transformed": false
+    },
+    "occurrence_id": {
+      "type": "string",
+      "privacy_transformed": false
+    },
+    "content": {
+      "type": "string",
+      "privacy_transformed": true
+    },
+    "publish_time": {
+      "type": "string",
+      "privacy_transformed": false
+    },
+    "publish_time_utc": {
+      "type": "string",
+      "privacy_transformed": false
+    },
+    "repost_count": {
+      "type": "integer",
+      "privacy_transformed": false
+    },
+    "comment_count": {
+      "type": "integer",
+      "privacy_transformed": false
+    },
+    "like_count": {
+      "type": "integer",
+      "privacy_transformed": false
+    }
+  },
+  "removed_fields": [
+    "username",
+    "user_id",
+    "location",
+    "image_urls"
+  ],
+  "redaction_tokens": [
+    "[USER]",
+    "[LINK]",
+    "[CONTACT]",
+    "[ADDRESS]"
+  ],
+  "raw_source_sha256": "259504f12a093efa59dcb57f7b1c3d30cf7be0a971b34f8b7a7f0bf39f9fd914",
+  "csv_sha256": "3de8d060d20cd794e9199fe377b4395441f8bfeccac013756b27249f2b5d5c9c",
+  "metadata_fieldwise_unchanged": true,
+  "original_text_roundtrip": false,
+  "source_row": "one-based position; unchanged",
+  "occurrence_id": "local hk_weibo:<source_row>; not a native platform post ID",
+  "publish_time": "unchanged UTC+08 source string",
+  "publish_time_utc": "unchanged derived UTC ISO8601",
+  "window_assignments_3_6_12h_unchanged": true,
+  "original_analysis_and_frozen_assets_retained_separately": true,
+  "fully_anonymous_claim": false
+}

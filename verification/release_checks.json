@@ -1,0 +1,32 @@
+{
+  "status": "PRIVACY_PROCESSED_PUBLIC_RELEASE",
+  "date": "2026-10-21",
+  "no_github_remote_or_push": false,
+  "data_all_records_pass": true,
+  "weibo_fieldwise_roundtrip_pass": false,
+  "blm_id_uniqueness_and_byte_merge_pass": true,
+  "weibo_preprocessing_all_rows_match_frozen": false,
+  "numerical_definitions_AST_identical": 57,
+  "all_public_source_imports_pass": true,
+  "current_figure_reference_PDFs_hash_match": 22,
+  "quantitative_figures_regenerated": 21,
+  "framework_pdf_preserved": true,
+  "all_22_text_and_collision_audits_pass": true,
+  "multi_panel_alignment": "19 PASS; 2 single-panel NOT APPLICABLE",
+  "complete_GPU_scientific_run_executed": false,
+  "local_torch": "2.11.0+cpu",
+  "missing_original_server_states": 22269,
+  "blm_per_post_coordinates_and_indices_distributed": false,
+  "remaining_before_publication": [
+    "author code license and substantiated collection/access and redistribution details where still unconfirmed",
+    "exact original encoder revision/inference recipe and external BLM replay access route"
+  ],
+  "weibo_metadata_fieldwise_unchanged": true,
+  "weibo_window_assignments_all_rows_match_frozen": true,
+  "weibo_public_text_differs_from_original_analysis": true,
+  "privacy_redaction_full_collection_pass": true,
+  "unit_tests_passed": 16,
+  "blm_native_ids_unchanged": true,
+  "shared_data_fully_anonymous": false,
+  "original_preparation_checks_scope": "AST/figure equivalence and original-text checks describe initial packaging; current privacy revision leaves scientific operators and numerical results unchanged. Current payload hashes are in publication_manifest.csv."
+}

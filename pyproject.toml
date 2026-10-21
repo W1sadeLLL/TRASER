@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traser"
+version = "0.1.1"
+description = "Representation, HK dynamics, and assimilation for online opinion distributions"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+dev = ["ruff==0.17.1"]
+privacy = ["transformers>=4.50,<6", "pyahocorasick>=2.1"]
+
+[project.urls]
+Repository = "https://github.com/W1sadeLLL/TRASER"
+Documentation = "https://github.com/W1sadeLLL/TRASER/tree/main/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["traser*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

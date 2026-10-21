@@ -1,0 +1,22 @@
+{
+  "protocol": "hssc_adaptive_v3",
+  "dataset": "blm_x",
+  "window_hours": 6,
+  "particles": 5000,
+  "parent": {
+    "protocol": "hssc_revision_v1",
+    "dataset": "blm_x",
+    "pca_identity": "06cbcb66a3fb9b329117",
+    "parent_identity": "74428e513f165ebe62c45bb869ab20db875855609a0d74f03ec6f311b516f08e",
+    "readout_sha256": "810c155bdbd96f70949e2b4dc0d97d5f7f0c395e0debcf3ca9f4e9dfa2f9c270",
+    "readout_selection_sha256": "bdf28ffc395e1a73b94a23cd3295693806ffe985c6839b38e81a0e2118e133aa",
+    "config_sha256": "4cba95f22aa54f427b32802370496bbc557042a687fcfbb9db92773f8e8e63e8",
+    "code_sha256": "b10ce38d872770411fca652916478fd0acf11a3e6f7d08e042dd154ed0f42d81",
+    "particles": 5000,
+    "full_target_mass": true
+  },
+  "calendar_sha256": "fbeba5f9b2f7856dffbf099dbb2c40f6d2d3f2c7da7456fc876d3193d1456fad",
+  "config_sha256": "679e1b6ee8521c32d9587fb3482438182a40a9a1f90f05ab9d16e3f57783d252",
+  "code_sha256": "17b652ce2a8c7c22355a61e3fa72f9f23def21f185018cfeb23b24bbf0f4dea8",
+  "update_code_sha256": "be36f80dcf03af5527bb86b03f288ed0e65fdfc8ca33964a6273728d8e40fa85"
+}

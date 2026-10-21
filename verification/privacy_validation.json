@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "rows": 62804,
+  "public_columns": [
+    "source_row",
+    "occurrence_id",
+    "content",
+    "publish_time",
+    "publish_time_utc",
+    "repost_count",
+    "comment_count",
+    "like_count"
+  ],
+  "all_metadata_cells_unchanged": true,
+  "original_order_preserved": true,
+  "known_source_author_names_and_ids_in_content": 0,
+  "residual_rule_patterns": 0,
+  "redaction_token_counts": {
+    "ADDRESS": 183110,
+    "USER": 105981,
+    "LINK": 32251,
+    "CONTACT": 1247
+  },
+  "full_window_comparison": {
+    "3": {
+      "all_occurrence_window_bindings_preserved": true,
+      "rows": 62804
+    },
+    "6": {
+      "all_occurrence_window_bindings_preserved": true,
+      "rows": 62804
+    },
+    "12": {
+      "all_occurrence_window_bindings_preserved": true,
+      "rows": 62804
+    }
+  },
+  "blm_part_hashes_unchanged": true,
+  "blm_native_ids": 5416377,
+  "shared_data_fully_anonymous": false,
+  "scientific_reproduction_executed": false
+}

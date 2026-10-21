@@ -1,0 +1,8 @@
+﻿row,group,column_1,column_2,column_3,column_4,column_5,column_6,column_7
+1,,Case,Hours,Family,Fixed / lambda,Selected / lambda_0,beta,gamma
+2,,BLM/X,6,Transport,0.1000,0.1000,0.0000,0.0000
+3,,BLM/X,12,MMD,0.0100,0.0200,1.0000,0.0000
+4,,BLM/X,24,Transport,0.3000,0.6000,1.0000,0.5000
+5,,Weibo,3,Transport,0.3000,0.3000,0.5000,0.0000
+6,,Weibo,6,MMD,0.0100,0.0100,0.0000,0.0000
+7,,Weibo,12,Transport,0.0300,0.0600,1.0000,2.0000

@@ -1,0 +1,54 @@
+{
+  "rows": 5416377,
+  "unique_rows": 5416377,
+  "column": "pid",
+  "dtype": "string",
+  "complete_csv_sha256": "c9eedd3b251886732ebae45d84895e5d2e68a34f3c3af8f53a614d2f0be0ff3a",
+  "complete_csv_bytes": 119160300,
+  "parts": [
+    {
+      "file": "data/blm/ids/blm_used_pid.part-001.csv",
+      "start_row_1based": 1,
+      "rows": 1000000,
+      "bytes": 22000006,
+      "sha256": "89b91b94d48e84991dd2d7e52df2d88b3461abf6619fc1bb7c00895955525724"
+    },
+    {
+      "file": "data/blm/ids/blm_used_pid.part-002.csv",
+      "start_row_1based": 1000001,
+      "rows": 1000000,
+      "bytes": 22000006,
+      "sha256": "c6e7ad5f89cb36d5ed54929bf38831c9495e84f15c95e7624a296a8e54f085a7"
+    },
+    {
+      "file": "data/blm/ids/blm_used_pid.part-003.csv",
+      "start_row_1based": 2000001,
+      "rows": 1000000,
+      "bytes": 22000006,
+      "sha256": "820f0336ea7a8c65b0cc7eae6f06cfbf88485b4b2fdf6993098b22fef3dfc08b"
+    },
+    {
+      "file": "data/blm/ids/blm_used_pid.part-004.csv",
+      "start_row_1based": 3000001,
+      "rows": 1000000,
+      "bytes": 22000006,
+      "sha256": "32de3e460db682a4285fd0beaa6e80b185df3c4bc3091f40c3c90b5a183f77dc"
+    },
+    {
+      "file": "data/blm/ids/blm_used_pid.part-005.csv",
+      "start_row_1based": 4000001,
+      "rows": 1000000,
+      "bytes": 22000006,
+      "sha256": "ffc2e8da6e2272149c9f81b6ee990dbe6e801240491209b19ad0295ac801c040"
+    },
+    {
+      "file": "data/blm/ids/blm_used_pid.part-006.csv",
+      "start_row_1based": 5000001,
+      "rows": 416377,
+      "bytes": 9160300,
+      "sha256": "987a3f92c0856c2b6545dede1c6cfc7516e8a7269b4e15ebaf7870e32cffe9af"
+    }
+  ],
+  "concatenation": "Keep first header only, concatenate in manifest order. Byte identity verified.",
+  "upstream_dataset_url": null
+}

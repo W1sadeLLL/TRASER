@@ -1,0 +1,11 @@
+{
+  "all_inline": true,
+  "main_unique": 3,
+  "supplementary": 19,
+  "case_resolution_rows": 6,
+  "all_metric_rows": 78,
+  "origin_diagnostic_rows": 439,
+  "generated_utc": "2026-10-20T19:55:20.608095+00:00",
+  "reference_seed_rows": 1020,
+  "reference_origin_rows": 340
+}

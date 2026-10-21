@@ -1,0 +1,56 @@
+{
+  "rows": 62804,
+  "content_rows_changed": 62388,
+  "removed_columns": [
+    "username",
+    "user_id",
+    "location",
+    "image_urls"
+  ],
+  "full_local_ner_pass": true,
+  "model": "uer/roberta-base-finetuned-cluener2020-chinese",
+  "ner_entity_probability_threshold": 0.1,
+  "inference_device": "cuda",
+  "local_inference_only": true,
+  "counts": {
+    "CONTACT": 1498,
+    "LINK": 32252,
+    "USER": 27697,
+    "ADDRESS": 2246,
+    "dictionary_detections": 16407,
+    "ner_name_detections": 47126,
+    "ner_address_detections": 137419
+  },
+  "fully_anonymous_claim": false,
+  "original_analysis_modified": false,
+  "supplemental_full_collection_rule_pass": {
+    "rows": 62804,
+    "rows_changed": 195,
+    "counts": {
+      "USER": 0,
+      "CONTACT": 0,
+      "LINK": 0,
+      "ADDRESS": 0
+    },
+    "single_character_source_nicknames_included": true
+  },
+  "model_artifact_sha256": {
+    "config.json": "a80e368cebeaeb01ed195f068b01a65f5b01b87e8059434710a01f3b97a38598",
+    "pytorch_model.bin": "b865252516115c46bc508167fa2258f198bcce520eb7a1ac4fbf8d50dc361368",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "tokenizer_config.json": "21b0a2fba3d74b521cdbd631b2936c2c063c856c3a05533fabee04005c02cd23",
+    "vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+  },
+  "model_revision": "cddd8fc233e373855a8c0a7f4b7eb83acb686a2b",
+  "preceding_supplemental_rule_pass": {
+    "rows": 62804,
+    "rows_changed": 6117,
+    "counts": {
+      "USER": 2251,
+      "CONTACT": 0,
+      "LINK": 0,
+      "ADDRESS": 0
+    },
+    "single_character_source_nicknames_included": true
+  }
+}

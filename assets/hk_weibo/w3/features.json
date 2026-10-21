@@ -1,0 +1,11 @@
+{
+  "radii": [
+    0.39588536478439573,
+    1.178824505314249,
+    1.4423352652747838
+  ],
+  "bandwidth": 1.4288548772773675,
+  "fit_phase": "train",
+  "numerical_support_particles": 1000,
+  "config_sha256": "9cbaa7c652018de6070b8397d8102958c7ee0f5c8838b6062d806599ba610588"
+}

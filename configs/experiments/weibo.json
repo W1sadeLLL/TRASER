@@ -1,0 +1,153 @@
+{
+  "protocol": "hssc_weibo_3d2d_3h6h12h_v1",
+  "datasets": [
+    "hk_weibo"
+  ],
+  "window_hours": [
+    3,
+    6,
+    12
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "particles": {
+    "hk_weibo": 1000
+  },
+  "boundaries": {
+    "hk_weibo": [
+      "2025-11-25T00:00:00Z",
+      "2025-11-28T00:00:00Z",
+      "2025-11-30T00:00:00Z",
+      "2026-01-01T00:00:00Z"
+    ]
+  },
+  "calendar_policy": "Independent phase initialisation, within-phase one-step evaluation; retain all occurrences and empty windows, skip only empty targets; no cross-phase scoring",
+  "representation": {
+    "raw_dimension": 4096,
+    "dimension": 64,
+    "embedding_l2_normalize": true,
+    "occurrence_weighted_training_pca": true,
+    "exclude_original_evaluation_accounts_and_duplicate_components": true,
+    "whiten": false,
+    "post_projection_l2_normalize": false,
+    "scale": "single training RMS",
+    "fit_end_exclusive_utc": "2025-11-28T00:00:00Z"
+  },
+  "semantic_mapping": {
+    "fit_end_exclusive_utc": "2025-11-30T00:00:00Z",
+    "reuse_existing_machine_labels_only": true,
+    "preserve_original_account_text_splits": true,
+    "independent_axes": 11,
+    "alphas": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "reference": "machine, not independently human validated"
+  },
+  "mechanical_search": "Declared complete coarse grid plus two local refinements; new training geometry; no previous selected optimum or test-informed anchor",
+  "alpha_grid": [
+    0,
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1
+  ],
+  "sigma_grid": [
+    0.0005,
+    0.001,
+    0.0025,
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "radius_multipliers": [
+    0.5,
+    1,
+    1,
+    1,
+    1.5
+  ],
+  "refinement_rounds": 2,
+  "mmd_solvers": [
+    {
+      "steps": 8,
+      "learning_rate": 0.05
+    },
+    {
+      "steps": 24,
+      "learning_rate": 0.02
+    }
+  ],
+  "mmd_strengths": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10,
+    30
+  ],
+  "transport_steps": 24,
+  "transport_strengths": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10,
+    30
+  ],
+  "transport_direction_seed": 2026101903,
+  "count_powers": [
+    0,
+    0.5,
+    1
+  ],
+  "innovation_responses": [
+    0,
+    0.5,
+    2
+  ],
+  "adaptive_strength_factors": [
+    0.5,
+    1,
+    2
+  ],
+  "count_ratio_bounds": [
+    0.0625,
+    16
+  ],
+  "strength_ratio_bounds": [
+    0.03125,
+    32
+  ],
+  "selection": "Complete development one-step primary distance, averaging seeds within origin then origins equally; select mechanics before assimilation; exact second-stage ties retain first-stage fixed choice",
+  "development_limit": "Two development days provide 15/7/3 one-step origins at 3/6/12 hours; the 12-hour selection is supported by only three transitions and remains exploratory",
+  "full_target_mass": true,
+  "test_already_exposed": true,
+  "particle_sensitivity": {
+    "hk_weibo": [
+      500,
+      1000,
+      2000
+    ]
+  },
+  "conditional_interventions": "All existing expression-injection, matched-control and source-influence scenarios from latest states at each new resolution; paired noise; multipliers 0.5/0/2 and self-weight 1",
+  "result_identity": "hssc_weibo_3d2d_3h6h12h_v1"
+}

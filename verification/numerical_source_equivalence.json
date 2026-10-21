@@ -1,0 +1,287 @@
+[
+  {
+    "module": "realtime_kernels",
+    "definition": "directions",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "SlicedDistance.__init__",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "SlicedDistance.prepare",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "SlicedDistance.squared",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "SlicedDistance.loss",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "SlicedDistance.score",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "bcm_step",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_kernels",
+    "definition": "mmd_update",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "atomic_torch",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "atomic_array",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "seal",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.initial",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.innovation",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.transition",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.update",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.score",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.reference_candidates",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.reference_forecasts",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.select_references",
+    "original_AST_equal": true
+  },
+  {
+    "module": "realtime_residual",
+    "definition": "Experiment.metrics",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_science",
+    "definition": "Experiment.mapped",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_science",
+    "definition": "Experiment.semantic_target",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_science",
+    "definition": "Experiment.semantic",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_science",
+    "definition": "Experiment.metrics",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive",
+    "definition": "Experiment.clouds",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive",
+    "definition": "Experiment.semantic",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive",
+    "definition": "Experiment.adaptive_update",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive",
+    "definition": "Experiment.clear_phase",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive",
+    "definition": "key",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_update",
+    "definition": "effective_strength",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_update",
+    "definition": "transport_update",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_sparse_reporting",
+    "definition": "chain",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_sparse_reporting",
+    "definition": "paired",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_scenarios",
+    "definition": "weighted_hk",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_scenarios",
+    "definition": "matched_indices",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_scenarios",
+    "definition": "outcome",
+    "original_AST_equal": true
+  },
+  {
+    "module": "hssc_adaptive_scenarios",
+    "definition": "simulate",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t07_particles",
+    "definition": "seed_for",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t07_particles",
+    "definition": "initialize",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t08_dynamics",
+    "definition": "_seed",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t08_dynamics",
+    "definition": "_initial",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_to_unit",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_from_unit",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_quantile",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_project_quantiles",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_reconstruct",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "fit_war",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "predict_war",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "fit_wr",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "predict_wr",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "_lqd_transform",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "fit_lqd",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t09_baselines",
+    "definition": "predict_lqd",
+    "original_AST_equal": true
+  },
+  {
+    "module": "event_summary_evaluation",
+    "definition": "density",
+    "original_AST_equal": true
+  },
+  {
+    "module": "t03_pca",
+    "definition": "weighted_batch_moments",
+    "original_AST_equal": true
+  },
+  {
+    "module": "embedding_protocol",
+    "definition": "embedding_text_blm",
+    "original_AST_equal": true
+  },
+  {
+    "module": "weibo_repartition_science",
+    "definition": "select",
+    "original_AST_equal": true
+  }
+]

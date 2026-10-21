@@ -1,0 +1,58 @@
+{
+  "state": "PASS_COMPLETE_DELIVERY_CHECKS",
+  "pdf_pages": {
+    "main_reading": 27,
+    "supplementary_material": 58,
+    "main_submission": 21,
+    "standalone_supplement": 58
+  },
+  "row_counts": {
+    "forecast_results": 3951,
+    "semantic_forecasts": 3951,
+    "reconstruction": 10926,
+    "particle_forecasts": 7902,
+    "interventions": 2160,
+    "intervention_pairs": 1080,
+    "conditional_assessments": 360,
+    "intervention_matching": 270,
+    "origin_diagnostics": 439,
+    "reference_comparison_seed_level": 1020,
+    "reference_comparison_origins": 340,
+    "reference_comparison_summary": 130
+  },
+  "title_unchanged": true,
+  "introduction_unchanged": true,
+  "original_blm_evidence_unchanged": true,
+  "two_standalone_tex_files": true,
+  "child_tex_references": 0,
+  "source_parity": true,
+  "scientific_source_protocols": {
+    "blm_x": "hssc_adaptive_v3_sparse_v1",
+    "hk_weibo": "hssc_weibo_3d2d_3h6h12h_v1"
+  },
+  "word_counts": {
+    "method": "TeXcount section-text counts",
+    "sections": {
+      "Introduction": 1188,
+      "Data and methods": 2409,
+      "Results": 1596,
+      "Discussion": 1443
+    },
+    "main_sections": 6636,
+    "abstract": 234
+  },
+  "author_blocks_unchanged": true,
+  "framework_pdf_unchanged": false,
+  "framework_frequency_label_only": true,
+  "final_framework_correction_changed_reading_pages": [
+    7
+  ],
+  "active_and_packaged_figure_hash_parity": 22,
+  "paper_figure_directory_contains_only_referenced_pdfs": true,
+  "current_editable_source_modules_match": true,
+  "abstract_complete_on_first_page_in_both_main_pdfs": true,
+  "supplement_text_and_72dpi_pixel_parity_pages": 58,
+  "author_facts": "Preserved from current manuscript; no new attribution or ethics facts invented",
+  "checked_utc": "2026-10-20T20:43:50.535096+00:00",
+  "rendered_visual_review_complete": true
+}

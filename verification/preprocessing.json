@@ -1,0 +1,23 @@
+{
+  "3": {
+    "rows": 62804,
+    "encoder_text_identity_match": false,
+    "window_identity_match": true,
+    "original_private_input_matched_frozen_before_privacy_processing": true,
+    "scope": "Historical full-row check on private original input. Current public text is privacy-processed; do not claim text hash identity."
+  },
+  "6": {
+    "rows": 62804,
+    "encoder_text_identity_match": false,
+    "window_identity_match": true,
+    "original_private_input_matched_frozen_before_privacy_processing": true,
+    "scope": "Historical full-row check on private original input. Current public text is privacy-processed; do not claim text hash identity."
+  },
+  "12": {
+    "rows": 62804,
+    "encoder_text_identity_match": false,
+    "window_identity_match": true,
+    "original_private_input_matched_frozen_before_privacy_processing": true,
+    "scope": "Historical full-row check on private original input. Current public text is privacy-processed; do not claim text hash identity."
+  }
+}

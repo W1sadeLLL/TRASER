@@ -1,0 +1,269 @@
+{
+  "dataset": "blm_x",
+  "window_hours": 12,
+  "pca_identity": "06cbcb66a3fb9b329117",
+  "coordinate_path": "results/T03_representation/blm_x/pca64/06cbcb66a3fb9b329117/coordinates.parquet",
+  "source_occurrences_path": "results/T03_representation/blm_x/pca64/06cbcb66a3fb9b329117/occurrence_coordinate_12h_main.parquet",
+  "canonical_source_sha256": "8b989aff79444664fa8ea6a103764140eb03198a1dc63d3c81716da570cf02b2",
+  "source_occurrences_sha256": "716cec133a6c4c2a94bd5b1466b50f6d90a82a7883a5a457312997e03c8ee1e0",
+  "coordinates_bytes": 595024582,
+  "config_sha256": "679e1b6ee8521c32d9587fb3482438182a40a9a1f90f05ab9d16e3f57783d252",
+  "code_sha256": "4baee11bf190e0cc30c06f2fe63af6ac48cce069f84c26af9d6c0cc1fb4529f7",
+  "full_occurrences": 5416377,
+  "windows": [
+    {
+      "window": 0,
+      "phase": "train",
+      "start_utc": "2020-05-25T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-25T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 485
+    },
+    {
+      "window": 1,
+      "phase": "train",
+      "start_utc": "2020-05-25T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 860
+    },
+    {
+      "window": 2,
+      "phase": "train",
+      "start_utc": "2020-05-26T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 910
+    },
+    {
+      "window": 3,
+      "phase": "train",
+      "start_utc": "2020-05-26T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 81870
+    },
+    {
+      "window": 4,
+      "phase": "train",
+      "start_utc": "2020-05-27T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 119269
+    },
+    {
+      "window": 5,
+      "phase": "train",
+      "start_utc": "2020-05-27T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 230497
+    },
+    {
+      "window": 6,
+      "phase": "train",
+      "start_utc": "2020-05-28T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 80470
+    },
+    {
+      "window": 7,
+      "phase": "train",
+      "start_utc": "2020-05-28T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 79322
+    },
+    {
+      "window": 8,
+      "phase": "train",
+      "start_utc": "2020-05-29T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 161706
+    },
+    {
+      "window": 9,
+      "phase": "train",
+      "start_utc": "2020-05-29T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 151452
+    },
+    {
+      "window": 10,
+      "phase": "train",
+      "start_utc": "2020-05-30T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 280590
+    },
+    {
+      "window": 11,
+      "phase": "train",
+      "start_utc": "2020-05-30T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 170190
+    },
+    {
+      "window": 12,
+      "phase": "train",
+      "start_utc": "2020-05-31T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 151522
+    },
+    {
+      "window": 13,
+      "phase": "train",
+      "start_utc": "2020-05-31T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 109320
+    },
+    {
+      "window": 14,
+      "phase": "train",
+      "start_utc": "2020-06-01T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 186743
+    },
+    {
+      "window": 15,
+      "phase": "train",
+      "start_utc": "2020-06-01T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 133641
+    },
+    {
+      "window": 16,
+      "phase": "development",
+      "start_utc": "2020-06-02T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 144917
+    },
+    {
+      "window": 17,
+      "phase": "development",
+      "start_utc": "2020-06-02T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 115715
+    },
+    {
+      "window": 18,
+      "phase": "development",
+      "start_utc": "2020-06-03T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 287142
+    },
+    {
+      "window": 19,
+      "phase": "development",
+      "start_utc": "2020-06-03T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 174606
+    },
+    {
+      "window": 20,
+      "phase": "development",
+      "start_utc": "2020-06-04T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 229872
+    },
+    {
+      "window": 21,
+      "phase": "development",
+      "start_utc": "2020-06-04T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 235328
+    },
+    {
+      "window": 22,
+      "phase": "test",
+      "start_utc": "2020-06-05T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 416405
+    },
+    {
+      "window": 23,
+      "phase": "test",
+      "start_utc": "2020-06-05T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 370050
+    },
+    {
+      "window": 24,
+      "phase": "test",
+      "start_utc": "2020-06-06T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 419121
+    },
+    {
+      "window": 25,
+      "phase": "test",
+      "start_utc": "2020-06-06T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 250969
+    },
+    {
+      "window": 26,
+      "phase": "test",
+      "start_utc": "2020-06-07T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 445677
+    },
+    {
+      "window": 27,
+      "phase": "test",
+      "start_utc": "2020-06-07T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-08T00:00:00+00:00",
+      "duration_hours": 12.0,
+      "full_duration": true,
+      "eligible_occurrences": 387728
+    }
+  ],
+  "empty_windows": [],
+  "partial_windows": []
+}

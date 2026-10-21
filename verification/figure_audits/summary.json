@@ -1,0 +1,332 @@
+{
+  "Figure_1.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 60,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_injection_all_blm_x.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_injection_all_hk_weibo.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_interventions.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 10,
+        "contained_image_overlays": 10
+      }
+    }
+  },
+  "hssc_latent_combined.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_latent_comparison_first.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_latent_comparison_last.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_latent_observed.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_observed.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_origin_diagnostics.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_shapes.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_shapes_all_emotions.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_shapes_all_topics.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_shapes_first.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_shapes_last.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_trajectory_12h.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_trajectory_24h.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_semantic_trajectory_6h.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_statistical_references.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_update_parameters.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0
+      }
+    }
+  },
+  "hssc_updating.pdf": {
+    "text": {
+      "exit_code": 0,
+      "summary": null
+    },
+    "collisions": {
+      "exit_code": 0,
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "contained_fill_overlays": 6,
+        "contained_image_overlays": 0
+      }
+    }
+  }
+}

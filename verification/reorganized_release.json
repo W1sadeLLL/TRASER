@@ -1,0 +1,26 @@
+{
+  "structure": "single src/traser package; responsibilities separated",
+  "official_precedents": [
+    "https://github.com/google-deepmind/alphafold3",
+    "https://github.com/microsoft/Graphormer",
+    "https://github.com/facebookresearch/dinov2",
+    "https://github.com/CompVis/latent-diffusion"
+  ],
+  "unit_tests_passed": 16,
+  "editable_install_passed": true,
+  "installed_import_outside_repository_cwd_passed": true,
+  "numerical_definitions_equivalent_after_import_rebinding": 57,
+  "all_22_figures_identical_to_before_restructuring_at_72dpi": true,
+  "full_public_data_audit_passed": true,
+  "relative_documentation_links_passed": true,
+  "single_experiment_owner": "SQLite transaction; duplicate rejected and exception releases lock",
+  "original_resource_reserves_restored": true,
+  "scientific_new_GPU_runs_executed": false,
+  "upload_authorized": true,
+  "github_authentication": "authenticated owner; publication authorized",
+  "formatter": "ruff 0.17.1",
+  "format_check_passed": true,
+  "all_public_command_help_checks": 13,
+  "scientific_AST_checks_repeated_after_formatting": 57,
+  "privacy_revision": "0.1.1; original numerical/figure equivalence checks retained; private text excluded"
+}

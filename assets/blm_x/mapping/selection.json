@@ -1,0 +1,134 @@
+{
+  "pca_identity": "06cbcb66a3fb9b329117",
+  "axes": [
+    "topic_C01",
+    "topic_C02",
+    "topic_C03",
+    "topic_C04",
+    "topic_C05",
+    "emotion_anger",
+    "emotion_sadness",
+    "emotion_fear",
+    "emotion_disgust",
+    "emotion_joy",
+    "emotion_surprise"
+  ],
+  "records": [
+    {
+      "axis": "topic_C01",
+      "alpha": 0.01,
+      "fit_n": 4197,
+      "val_n": 897,
+      "val_rmse": 0.16950088853444997,
+      "heldout_n": 1392,
+      "heldout_rmse": 0.1667965243690419,
+      "heldout_mae": 0.09143490093365518
+    },
+    {
+      "axis": "topic_C02",
+      "alpha": 0.01,
+      "fit_n": 4182,
+      "val_n": 895,
+      "val_rmse": 0.19299810073018706,
+      "heldout_n": 1387,
+      "heldout_rmse": 0.19825325313083503,
+      "heldout_mae": 0.11936447819132794
+    },
+    {
+      "axis": "topic_C03",
+      "alpha": 0.01,
+      "fit_n": 4172,
+      "val_n": 884,
+      "val_rmse": 0.18826194436547405,
+      "heldout_n": 1385,
+      "heldout_rmse": 0.20177193286206455,
+      "heldout_mae": 0.130784289134482
+    },
+    {
+      "axis": "topic_C04",
+      "alpha": 0.01,
+      "fit_n": 4196,
+      "val_n": 900,
+      "val_rmse": 0.1562799744361576,
+      "heldout_n": 1399,
+      "heldout_rmse": 0.1646745671086329,
+      "heldout_mae": 0.08906023895615844
+    },
+    {
+      "axis": "topic_C05",
+      "alpha": 0.01,
+      "fit_n": 4194,
+      "val_n": 896,
+      "val_rmse": 0.1430720737311421,
+      "heldout_n": 1392,
+      "heldout_rmse": 0.14378486852050804,
+      "heldout_mae": 0.07820717846655963
+    },
+    {
+      "axis": "emotion_anger",
+      "alpha": 0.01,
+      "fit_n": 4126,
+      "val_n": 897,
+      "val_rmse": 0.20159728834751822,
+      "heldout_n": 1391,
+      "heldout_rmse": 0.17183084885255562,
+      "heldout_mae": 0.07479692666582588
+    },
+    {
+      "axis": "emotion_sadness",
+      "alpha": 0.01,
+      "fit_n": 4171,
+      "val_n": 899,
+      "val_rmse": 0.10270674198366586,
+      "heldout_n": 1397,
+      "heldout_rmse": 0.08292644914279897,
+      "heldout_mae": 0.02185838612498814
+    },
+    {
+      "axis": "emotion_fear",
+      "alpha": 0.01,
+      "fit_n": 4191,
+      "val_n": 900,
+      "val_rmse": 0.06199537262110343,
+      "heldout_n": 1399,
+      "heldout_rmse": 0.06197027956209387,
+      "heldout_mae": 0.010030312708704641
+    },
+    {
+      "axis": "emotion_disgust",
+      "alpha": 0.01,
+      "fit_n": 4164,
+      "val_n": 897,
+      "val_rmse": 0.13831974256266227,
+      "heldout_n": 1396,
+      "heldout_rmse": 0.13615857719346922,
+      "heldout_mae": 0.04407179086279976
+    },
+    {
+      "axis": "emotion_joy",
+      "alpha": 0.01,
+      "fit_n": 4184,
+      "val_n": 898,
+      "val_rmse": 0.10356613141527188,
+      "heldout_n": 1398,
+      "heldout_rmse": 0.09487526862872855,
+      "heldout_mae": 0.030073022330460948
+    },
+    {
+      "axis": "emotion_surprise",
+      "alpha": 100,
+      "fit_n": 4195,
+      "val_n": 899,
+      "val_rmse": 0.06364784753605147,
+      "heldout_n": 1398,
+      "heldout_rmse": 0.055951333652224676,
+      "heldout_mae": 0.007153153866042563
+    }
+  ],
+  "fit_count": 4200,
+  "val_count": 900,
+  "fit_last_window": 21,
+  "readout_calibration_scope": "pre-test original fit labels; separate from dynamics training",
+  "test_outcomes_used": false,
+  "machine_reference_only": true
+}

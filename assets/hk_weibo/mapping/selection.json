@@ -1,0 +1,138 @@
+{
+  "pca_identity": "60ca7ef7b025335da946",
+  "axes": [
+    "topic_C01",
+    "topic_C02",
+    "topic_C03",
+    "topic_C04",
+    "topic_C05",
+    "emotion_anger",
+    "emotion_sadness",
+    "emotion_fear",
+    "emotion_disgust",
+    "emotion_joy",
+    "emotion_surprise"
+  ],
+  "records": [
+    {
+      "axis": "topic_C01",
+      "alpha": 0.01,
+      "fit_n": 1010,
+      "val_n": 197,
+      "val_rmse": 0.15631993371050407,
+      "heldout_n": 1186,
+      "heldout_rmse": 0.18333544685865036,
+      "heldout_mae": 0.11308006453332173
+    },
+    {
+      "axis": "topic_C02",
+      "alpha": 0.01,
+      "fit_n": 1010,
+      "val_n": 197,
+      "val_rmse": 0.12474928842289432,
+      "heldout_n": 1190,
+      "heldout_rmse": 0.15582760511998575,
+      "heldout_mae": 0.10142577018166664
+    },
+    {
+      "axis": "topic_C03",
+      "alpha": 0.01,
+      "fit_n": 1007,
+      "val_n": 197,
+      "val_rmse": 0.10542537412153437,
+      "heldout_n": 1193,
+      "heldout_rmse": 0.13512766434930698,
+      "heldout_mae": 0.07691432986220495
+    },
+    {
+      "axis": "topic_C04",
+      "alpha": 0.01,
+      "fit_n": 1010,
+      "val_n": 197,
+      "val_rmse": 0.08179764931849914,
+      "heldout_n": 1201,
+      "heldout_rmse": 0.1306124335577375,
+      "heldout_mae": 0.08063192146005602
+    },
+    {
+      "axis": "topic_C05",
+      "alpha": 0.01,
+      "fit_n": 1005,
+      "val_n": 197,
+      "val_rmse": 0.1083439902795933,
+      "heldout_n": 1192,
+      "heldout_rmse": 0.1420464008998158,
+      "heldout_mae": 0.08400921650587644
+    },
+    {
+      "axis": "emotion_anger",
+      "alpha": 100,
+      "fit_n": 1002,
+      "val_n": 197,
+      "val_rmse": 0.10076247536207518,
+      "heldout_n": 1199,
+      "heldout_rmse": 0.12157336902806146,
+      "heldout_mae": 0.06171294056791371
+    },
+    {
+      "axis": "emotion_sadness",
+      "alpha": 0.01,
+      "fit_n": 984,
+      "val_n": 196,
+      "val_rmse": 0.15146794315635145,
+      "heldout_n": 1184,
+      "heldout_rmse": 0.1585588475894612,
+      "heldout_mae": 0.10086266716736034
+    },
+    {
+      "axis": "emotion_fear",
+      "alpha": 0.01,
+      "fit_n": 1001,
+      "val_n": 196,
+      "val_rmse": 0.12190590365257109,
+      "heldout_n": 1196,
+      "heldout_rmse": 0.08069901251795625,
+      "heldout_mae": 0.03557472655510289
+    },
+    {
+      "axis": "emotion_disgust",
+      "alpha": 100,
+      "fit_n": 1008,
+      "val_n": 197,
+      "val_rmse": 0.05725637739343719,
+      "heldout_n": 1202,
+      "heldout_rmse": 0.10421902608292405,
+      "heldout_mae": 0.04673328176383192
+    },
+    {
+      "axis": "emotion_joy",
+      "alpha": 0.01,
+      "fit_n": 1008,
+      "val_n": 196,
+      "val_rmse": 0.08914699239107916,
+      "heldout_n": 1204,
+      "heldout_rmse": 0.12233290926084142,
+      "heldout_mae": 0.0814507313291786
+    },
+    {
+      "axis": "emotion_surprise",
+      "alpha": 0.01,
+      "fit_n": 1009,
+      "val_n": 196,
+      "val_rmse": 0.12127088907216636,
+      "heldout_n": 1202,
+      "heldout_rmse": 0.08242770849063533,
+      "heldout_mae": 0.03776054107468497
+    }
+  ],
+  "fit_count": 1525,
+  "val_count": 302,
+  "fit_last_window": 9,
+  "readout_calibration_scope": "Pre-test original eligible fit/validation labels plus authorised 1500-fit/300-validation supplement; 200 added evaluation texts are held out. Frozen unsupervised PCA is a separate training instrument.",
+  "test_outcomes_used": false,
+  "machine_reference_only": true,
+  "supplement_config_sha256": "716a40ee4f476d5217751733b606d7b71f57c5f12dc8417438fc0daa8df15c8d",
+  "label_source_sha256": "cdb8d291bdfedf2bbb3c83a9cde107ca6352fbb154658e23e361676f98f610d6",
+  "annotation_manifest_sha256": "bdadfa31d937b40faca56dd3e70009663677db733208589b4c6486d13c094be9",
+  "fit_end_exclusive_utc": "2025-11-30T00:00:00Z"
+}

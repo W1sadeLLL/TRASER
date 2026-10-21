@@ -1,0 +1,59 @@
+{
+  "bcm": {
+    "alpha": 0.025,
+    "radius": 1.7002226559167732,
+    "sigma": 0.025
+  },
+  "update": {
+    "strength": 0.01,
+    "score": 0.15779040965074756
+  },
+  "pure_bcm_development_score": 0.17357465803345454,
+  "old_bcm_development_score": 0.1776764301786332,
+  "mechanical_candidate_count": 371,
+  "strength_candidates": [
+    {
+      "strength": 0.001,
+      "score": 0.1588536777443353
+    },
+    {
+      "strength": 0.003,
+      "score": 0.15826100401603166
+    },
+    {
+      "strength": 0.01,
+      "score": 0.15779040965074756
+    },
+    {
+      "strength": 0.03,
+      "score": 0.15838677366849657
+    },
+    {
+      "strength": 0.1,
+      "score": 0.16161041173649338
+    },
+    {
+      "strength": 0.3,
+      "score": 0.165347976391144
+    },
+    {
+      "strength": 1,
+      "score": 0.17357465803345454
+    },
+    {
+      "strength": 3,
+      "score": 0.17357465803345454
+    },
+    {
+      "strength": 10,
+      "score": 0.17357465803345454
+    },
+    {
+      "strength": 30,
+      "score": 0.17357465803345454
+    }
+  ],
+  "selection_rule": "mean primary one-step discrepancy over every origin of continuous H0 development chains and all three seeds",
+  "test_used": false,
+  "selected_utc": "2026-10-19T07:53:54.914517+00:00"
+}

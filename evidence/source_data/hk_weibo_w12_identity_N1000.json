@@ -1,0 +1,11 @@
+{
+  "protocol": "hssc_weibo_3d2d_3h6h12h_v1",
+  "window_hours": 12,
+  "particles": 1000,
+  "pca_identity": "60ca7ef7b025335da946",
+  "calendar_sha256": "a8501b161291f9a339ffdd4a9413b9819f9527fea9fd43b4afca5603e1fca061",
+  "config_sha256": "9cbaa7c652018de6070b8397d8102958c7ee0f5c8838b6062d806599ba610588",
+  "code_sha256": "26dd4035f63083244bdd2f3f5908d636dfd74998797cd9654e6d0beb1990ea11",
+  "full_target_mass": true,
+  "readout_sha256": "dbb0ceec8e91d11d4fd8e221588e2dfaa1b2e10e20a3a3c9ce6f94eb2e44d962"
+}

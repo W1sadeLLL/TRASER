@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "public_files_inspected": 355,
+  "file_type_counts": {
+    ".py": 52,
+    ".json": 204,
+    "[none]": 2,
+    ".yml": 1,
+    ".cff": 1,
+    ".md": 8,
+    ".npz": 10,
+    ".parquet": 4,
+    ".csv": 46,
+    ".txt": 2,
+    ".pdf": 22,
+    ".gz": 1,
+    ".toml": 1,
+    ".png": 1
+  },
+  "structured_value_exact_source_identity_matches": 0,
+  "weibo_profile_post_image_links_in_structured_payloads": 0,
+  "compressed_json_scanned": true,
+  "all_4_public_parquet_schemas_and_strings_scanned": true,
+  "all_npz_arrays_checked_without_pickle": true,
+  "all_22_reference_pdf_texts_scanned": true,
+  "contact_sheet_visual_review": "numerical/scientific figures only; no post screenshots or account profiles",
+  "public_zip_archives": 0,
+  "private_ignored_archives_excluded_from_publication": true,
+  "blm_pid_deliberately_retained": true,
+  "reachable_history_receipt_inspected": true
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "directions",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "SlicedDistance.__init__",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "SlicedDistance.prepare",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "SlicedDistance.squared",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "SlicedDistance.loss",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "SlicedDistance.score",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "bcm_step",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.operators",
+    "definition": "mmd_update",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "atomic_torch",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "atomic_array",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "seal",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.initial",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.innovation",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.transition",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.update",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.score",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.reference_candidates",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.reference_forecasts",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.select_references",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.base",
+    "definition": "Experiment.metrics",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.semantics.diagnostics",
+    "definition": "Experiment.mapped",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.semantics.diagnostics",
+    "definition": "Experiment.semantic_target",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.semantics.diagnostics",
+    "definition": "Experiment.semantic",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.semantics.diagnostics",
+    "definition": "Experiment.metrics",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.experiment",
+    "definition": "Experiment.clouds",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.experiment",
+    "definition": "Experiment.semantic",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.experiment",
+    "definition": "Experiment.adaptive_update",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.experiment",
+    "definition": "Experiment.clear_phase",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.experiment",
+    "definition": "key",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.transport",
+    "definition": "effective_strength",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.assimilation.transport",
+    "definition": "transport_update",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.chains",
+    "definition": "chain",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.chains",
+    "definition": "paired",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.interventions",
+    "definition": "weighted_hk",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.interventions",
+    "definition": "matched_indices",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.interventions",
+    "definition": "outcome",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.interventions",
+    "definition": "simulate",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.initialization",
+    "definition": "seed_for",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.initialization",
+    "definition": "initialize",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.seeding",
+    "definition": "_seed",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.dynamics.seeding",
+    "definition": "_initial",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_to_unit",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_from_unit",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_quantile",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_project_quantiles",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_reconstruct",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "fit_war",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "predict_war",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "fit_wr",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "predict_wr",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "_lqd_transform",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "fit_lqd",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.baselines.statistical",
+    "definition": "predict_lqd",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.metrics.density",
+    "definition": "density",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.representations.moments",
+    "definition": "weighted_batch_moments",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.representations.text",
+    "definition": "embedding_text_blm",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  },
+  {
+    "public_module": "traser.experiments.select_weibo",
+    "definition": "select",
+    "AST_equal_including_docstrings_after_import_rebinding": true
+  }
+]

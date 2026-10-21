@@ -1,0 +1,159 @@
+[
+  {
+    "index": 0,
+    "name": "WAR",
+    "parameters": {},
+    "score": 0.5335116795967655,
+    "model_sha256": "2f2362989d53aba73b65e02d385999de6af8e3fa24d8297452c4d41f911690fb"
+  },
+  {
+    "index": 1,
+    "name": "WR",
+    "parameters": {
+      "rank": 1
+    },
+    "score": 0.5462832668912214,
+    "model_sha256": "597271d4316df3c60976fe3b6fd97a3653b74d5d285a4b953c523bbf776a98ae"
+  },
+  {
+    "index": 2,
+    "name": "WR",
+    "parameters": {
+      "rank": 2
+    },
+    "score": 0.6224935451701888,
+    "model_sha256": "8f5367cbd30ef49b041db4132de223593b463db5ff1e78324c23ad215833bc3e"
+  },
+  {
+    "index": 3,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 1,
+      "ridge": 0.1
+    },
+    "score": 0.5097488331244746,
+    "model_sha256": "0b91db06d2cf35cce8f24672de937942507042f4bc88b6e0ae17475b49c993d0"
+  },
+  {
+    "index": 4,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 1,
+      "ridge": 1.0
+    },
+    "score": 0.5224274554858165,
+    "model_sha256": "cff3499bbc8732f54dc4d60fea10a887fbff4d887a9558e92c145c6e28de781b"
+  },
+  {
+    "index": 5,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 1,
+      "ridge": 10.0
+    },
+    "score": 0.5435967321125745,
+    "model_sha256": "6faa14b284c7908cd0707090d9e99cd18ffa7b6c301b9443c639da5d725be514"
+  },
+  {
+    "index": 6,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 2,
+      "ridge": 0.1
+    },
+    "score": 0.8647953886419012,
+    "model_sha256": "6faca05dcca52e4db806c7df6f4a14ea703db11e08e83a968f4401fc45b37819"
+  },
+  {
+    "index": 7,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 2,
+      "ridge": 1.0
+    },
+    "score": 0.6067993455264873,
+    "model_sha256": "f8f0fab514cfcdbb5aa3d85906f0802df72a42766c7237d70123964d75611dce"
+  },
+  {
+    "index": 8,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 2,
+      "ridge": 10.0
+    },
+    "score": 0.5391498520635474,
+    "model_sha256": "f8601cf3ad0c2a239a86d3fd3f09bac3ef7d3d99e5fcf500c51cbcaf7d1623ed"
+  },
+  {
+    "index": 9,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 1,
+      "ridge": 0.1
+    },
+    "score": 0.5954882846109419,
+    "model_sha256": "295fd3c88dca54fb858bf5383307ee81c6b261ba58c30bc1a92f99fee815398d"
+  },
+  {
+    "index": 10,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 1,
+      "ridge": 1.0
+    },
+    "score": 0.5874653054702024,
+    "model_sha256": "4848c6f688742a5a062fc6cbd49c684eb0b24bcaedbe1fb94a80f36a8d585a7e"
+  },
+  {
+    "index": 11,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 1,
+      "ridge": 10.0
+    },
+    "score": 0.5787399265272833,
+    "model_sha256": "e2288c571f6341bb46cb772cd8922adec9c5e7b69ea35d9197ae47117a38493c"
+  },
+  {
+    "index": 12,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 2,
+      "ridge": 0.1
+    },
+    "score": 0.7138948073272534,
+    "model_sha256": "da43584dd639c8e6ec0179b2cf030ad3c6522d80deee4e5d4a6f5a2358bf712b"
+  },
+  {
+    "index": 13,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 2,
+      "ridge": 1.0
+    },
+    "score": 0.6026139467439635,
+    "model_sha256": "99eb8509bcd40974ed7e7fe943afafe27fce4cf266c68995b68a33640fc4a7bd"
+  },
+  {
+    "index": 14,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.05,
+      "rank": 2,
+      "ridge": 10.0
+    },
+    "score": 0.5570785760198058,
+    "model_sha256": "27041b1f0579391937af6c5013731fc57574179d7ff07bff7a24aeaf51b177f9"
+  }
+]

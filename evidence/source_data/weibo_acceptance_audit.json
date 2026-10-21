@@ -1,0 +1,23 @@
+{
+  "state": "COMPLETE",
+  "new_sample_component_count": 2000,
+  "new_sample_overlaps_old_label_components": 0,
+  "new_test_time_texts": 0,
+  "new_split_counts": {
+    "eval": 200,
+    "fit": 1500,
+    "val": 300
+  },
+  "sample_missing_account_ids": 0,
+  "legacy_eligible_fit_validation_heldout_component_overlaps": {
+    "fit__val": 0,
+    "fit__heldout": 4,
+    "val__heldout": 0
+  },
+  "heldout_labels_excluded_by_component": 115,
+  "heldout_labels_remaining_before_axis_missingness": 1260,
+  "heldout_components_overlap_fit_or_validation_after_filter": 0,
+  "mapping_scope_metadata_clarified": true,
+  "mapping_coefficients_or_selected_parameters_changed": false,
+  "checked_utc": "2026-10-20T19:47:12.817449+00:00"
+}

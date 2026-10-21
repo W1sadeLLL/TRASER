@@ -1,0 +1,40 @@
+{
+  "data_integrity": "PASS",
+  "blm_ids": 5416377,
+  "weibo_posts": 62804,
+  "weibo_phase_counts": {
+    "train": 24204,
+    "development": 17503,
+    "test": 21097
+  },
+  "weibo_public_privacy_schema": "PASS",
+  "weibo_residual_rule_scan": "PASS",
+  "shared_data_fully_anonymous": false,
+  "calendars": {
+    "blm_x/6h": {
+      "test_origins": 11,
+      "occurrences": 5416377
+    },
+    "blm_x/12h": {
+      "test_origins": 5,
+      "occurrences": 5416377
+    },
+    "blm_x/24h": {
+      "test_origins": 2,
+      "occurrences": 5416377
+    },
+    "hk_weibo/3h": {
+      "test_origins": 235,
+      "occurrences": 62804
+    },
+    "hk_weibo/6h": {
+      "test_origins": 123,
+      "occurrences": 62804
+    },
+    "hk_weibo/12h": {
+      "test_origins": 63,
+      "occurrences": 62804
+    }
+  },
+  "scientific_reproduction_executed": false
+}

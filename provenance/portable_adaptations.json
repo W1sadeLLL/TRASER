@@ -1,0 +1,21 @@
+{
+  "entry": "run.py",
+  "numerical_operations": "57 original numerical definitions AST-identical",
+  "new_interfaces": [
+    "CSV occurrence adapter",
+    "weighted PCA cache interface",
+    "masked Ridge interface",
+    "portable frozen Experiment constructor",
+    "full-calendar replay and scenarios"
+  ],
+  "plotting": [
+    "portable archive reads including gzip",
+    "remove manuscript writers, server gate and legacy dispatch",
+    "DejaVu Sans replaces TeX Gyre Heros",
+    "observed Posts label moved inward to prevent clipping",
+    "three latent grids have wider equal gutters for portable font",
+    "current 3/6/12 Weibo hours bound to existing original plot slots",
+    "framework PDF copied byte-identically"
+  ],
+  "full_scientific_replay_executed": false
+}

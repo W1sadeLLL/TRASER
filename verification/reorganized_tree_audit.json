@@ -1,0 +1,8 @@
+{
+  "publication_paths_scanned": 355,
+  "findings": [],
+  "private_auth_and_tool_directories_ignored": true,
+  "all_files_below_100_MiB": true,
+  "blm_data": "six native pid-only CSV parts, unchanged full manifest",
+  "privacy_revision": "0.1.1"
+}

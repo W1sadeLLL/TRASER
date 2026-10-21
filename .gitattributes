@@ -1,0 +1,17 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.cff text eol=lf
+# Preserve frozen data and manifest byte identity on Windows and Linux.
+*.csv -text
+*.json -text
+*.npz -text
+*.parquet -text
+*.pdf -text
+*.gz -text
+*.png -text

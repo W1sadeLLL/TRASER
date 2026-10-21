@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the TRASER repository and the associated manuscript when using this implementation."
+type: software
+title: "TRASER: Tracking Online Public Opinion Distributions through Representation, HK Dynamics, and Assimilation"
+version: 0.1.1
+url: "https://github.com/W1sadeLLL/TRASER"
+repository-code: "https://github.com/W1sadeLLL/TRASER"
+authors:
+  - family-names: Cao
+    given-names: Chenhe
+  - family-names: Xu
+    given-names: Xiaofei
+  - family-names: Zhao
+    given-names: Xiaofei
+  - family-names: Chen
+    given-names: Mingxing
+  - family-names: Lu
+    given-names: Zhen

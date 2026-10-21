@@ -1,0 +1,29 @@
+{
+  "WAR": {
+    "index": 0,
+    "name": "WAR",
+    "parameters": {},
+    "score": 0.5335116795967655,
+    "model_sha256": "2f2362989d53aba73b65e02d385999de6af8e3fa24d8297452c4d41f911690fb"
+  },
+  "WR": {
+    "index": 1,
+    "name": "WR",
+    "parameters": {
+      "rank": 1
+    },
+    "score": 0.5462832668912214,
+    "model_sha256": "597271d4316df3c60976fe3b6fd97a3653b74d5d285a4b953c523bbf776a98ae"
+  },
+  "LQD": {
+    "index": 3,
+    "name": "LQD",
+    "parameters": {
+      "bandwidth": 0.025,
+      "rank": 1,
+      "ridge": 0.1
+    },
+    "score": 0.5097488331244746,
+    "model_sha256": "0b91db06d2cf35cce8f24672de937942507042f4bc88b6e0ae17475b49c993d0"
+  }
+}

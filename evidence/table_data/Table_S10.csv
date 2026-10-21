@@ -1,0 +1,15 @@
+﻿row,group,column_1,column_2,column_3,column_4,column_5
+1,,Metric,Pure BCM,Fixed / assimilation,Selected / assimilation,Coverage
+2,,D_\Theta,"\shortstack[l]0.7536\\[0.1757, 1.5172]","\shortstack[l]0.6992\\[0.1572, 1.4459]","\shortstack[l]0.6642\\[0.1641, 1.4196]",235/235
+3,,Projection / sensitivity,"\shortstack[l]0.7543\\[0.1731, 1.5172]","\shortstack[l]0.6998\\[0.1579, 1.4459]","\shortstack[l]0.6648\\[0.1657, 1.4196]",235/235
+4,,Marginal W_2,"\shortstack[l]0.0899\\[0.0194, 0.1654]","\shortstack[l]0.0792\\[0.0194, 0.1550]","\shortstack[l]0.0753\\[0.0194, 0.1526]",235/235
+5,,Mean MSE,"\shortstack[l]0.0059\\[0.00023, 0.0233]","\shortstack[l]0.0058\\[0.000075, 0.0308]","\shortstack[l]0.0049\\[0.000072, 0.0260]",235/235
+6,,Mean / displacement,"\shortstack[l]0.5723\\[0.1200, 1.2205]","\shortstack[l]0.5411\\[0.0693, 1.4051]","\shortstack[l]0.5000\\[0.0678, 1.2895]",235/235
+7,,Centred shape,"\shortstack[l]0.4852\\[0.1283, 0.9102]","\shortstack[l]0.4256\\[0.1220, 0.9147]","\shortstack[l]0.4238\\[0.1227, 0.9067]",235/235
+8,,Symmetric KL,"\shortstack[l]163.86\\[0.0762, 20,604]","\shortstack[l]298.97\\[0.0762, 53,071]","\shortstack[l]214.55\\[0.0762, 36,559]",212/235
+9,,\shortstack[l]Arithmetic\\\sqrtJS,"\shortstack[l]0.2724\\[0.0870, 0.5361]","\shortstack[l]0.2814\\[0.0870, 0.6228]","\shortstack[l]0.2701\\[0.0870, 0.5315]",212/235
+10,,\shortstack[l]Geometric\\\sqrtJS,"\shortstack[l]0.7977\\[0.1321, 12.2502]","\shortstack[l]0.9966\\[0.1321, 17.5132]","\shortstack[l]0.8287\\[0.1321, 14.9147]",212/235
+11,,Density L_1,"\shortstack[l]0.5926\\[0.1726, 1.2810]","\shortstack[l]0.6173\\[0.1726, 1.4776]","\shortstack[l]0.5897\\[0.1726, 1.2446]",212/235
+12,,Marginal W_1,"\shortstack[l]0.0750\\[0.0153, 0.1409]","\shortstack[l]0.0673\\[0.0153, 0.1328]","\shortstack[l]0.0637\\[0.0153, 0.1289]",235/235
+13,,Marginal KS,"\shortstack[l]0.3944\\[0.0876, 0.7656]","\shortstack[l]0.4112\\[0.0876, 0.9594]","\shortstack[l]0.3981\\[0.0876, 0.9201]",235/235
+14,,Covariance / error,"\shortstack[l]0.3121\\[0.1039, 0.8772]","\shortstack[l]0.2926\\[0.0055, 0.8799]","\shortstack[l]0.2940\\[0.0100, 0.8792]",235/235

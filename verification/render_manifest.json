@@ -1,0 +1,153 @@
+{
+  "quantitative_figures": [
+    {
+      "name": "hssc_observed",
+      "pdf_sha256": "1db611f78285dde6b253aa6ed4ffe6b581c706aa2bb91e0dc55950cf6d7529a1",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_latent_combined",
+      "pdf_sha256": "b0149b1a3066eea59dbec5d558f31751601e13e55052e1bc5476ff5af46e27d3",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_shapes",
+      "pdf_sha256": "989176099b8e1af0a4fbbb8e1f13737b0598c6274bfb4c840ea1b0c5d3807e5e",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic",
+      "pdf_sha256": "53551e4fd50baa8920395069677255d008f0af5e13510a7fd18838e4b00d6794",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_updating",
+      "pdf_sha256": "59c31c3bc16b4f0c0fc88fe0735725b8f214363d5b32377a4e651e00bb023e5e",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_interventions",
+      "pdf_sha256": "2d68c8ed8cc9411b5e895fb63ad290d4c751e38bb7564daa1916234cf6c449f6",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_latent_observed",
+      "pdf_sha256": "6090f41d5b048e92b044937bacfe7df9c3d3a493398dc1cc888bbedfeb1a3357",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_shapes_first",
+      "pdf_sha256": "25d2742b73d84a0d18af5070e7d0e494ffc0ac3a64d72cc5803db9a42033de06",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_shapes_last",
+      "pdf_sha256": "a1cbb28e6658cde12e391cfca9fea5759b9e71f25ff29280cb8ef0840aad4584",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_shapes_all_topics",
+      "pdf_sha256": "277f366e22927b3f965512a4e528237790548e2d59de334cc0a0a84ed6b613f2",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_shapes_all_emotions",
+      "pdf_sha256": "0a8e70f656151007b1123b4919ea99c81cfa64c8e3a81316aea5d5fa91d780db",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_latent_comparison_first",
+      "pdf_sha256": "d58bfa289da62a14e5022c342796251ce467342d8a742b453e73d75129ba104e",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_latent_comparison_last",
+      "pdf_sha256": "871a1d79cdd9a18d3b3e1e01adf5ea4661491030f9a4464949a9e407edfc4a0e",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_trajectory_6h",
+      "pdf_sha256": "95d6649fbd222f613a42a9554b85ee0c10cf425ee3b7e09fda8729cf2131e1c5",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_trajectory_12h",
+      "pdf_sha256": "c42946e08ce5582b837fcd422776a804bf885c20018c7633520fbce98987104a",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_semantic_trajectory_24h",
+      "pdf_sha256": "ba578183f3f93ffe37fd09b59b4fb50012dc95fa9f6285d051232e159667e503",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_injection_all_blm_x",
+      "pdf_sha256": "979b08046227dfb29e2694de01f250374f998a03f9d6cd7c19843cc75a95772d",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_injection_all_hk_weibo",
+      "pdf_sha256": "e328a734032d3bd871bd00557fc56192893a43eafcc00cc1770314fcf29ea307",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_update_parameters",
+      "pdf_sha256": "cc222ed8497e02bb3772fb41e158323f3356079a798031f88c806f2028681060",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_origin_diagnostics",
+      "pdf_sha256": "e706e4633fc2d371cf0d3093a04b1984e8c3a6336276c403a49870bd6ad90418",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    },
+    {
+      "name": "hssc_statistical_references",
+      "pdf_sha256": "a4ff2d1af5d30d4720026ca068c39f7a90b74d44ffade9f6a6a596ca96760be5",
+      "font_pt": 11,
+      "source": "frozen complete array archive; no new model computation",
+      "font_substitution": "DejaVu Sans for portable release; archived reference uses TeX Gyre Heros"
+    }
+  ],
+  "framework": "exact existing Figure_1.pdf copied, not regenerated",
+  "scientific_models_executed": false
+}

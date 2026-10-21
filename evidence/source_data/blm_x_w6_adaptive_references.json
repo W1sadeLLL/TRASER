@@ -1,0 +1,8 @@
+{
+  "count": 62036.5,
+  "innovation": 0.09988989862694934,
+  "source": "full training occurrences; median count and centroid/RMS change, before development/test",
+  "window_hours": 6,
+  "training_change_pairs": 31,
+  "mechanical_radius_source": "frozen parent training-support geometry"
+}

@@ -1,0 +1,521 @@
+{
+  "dataset": "blm_x",
+  "window_hours": 6,
+  "pca_identity": "06cbcb66a3fb9b329117",
+  "coordinate_path": "results/T03_representation/blm_x/pca64/06cbcb66a3fb9b329117/coordinates.parquet",
+  "source_occurrences_path": "results/T03_representation/blm_x/pca64/06cbcb66a3fb9b329117/occurrence_coordinate_12h_main.parquet",
+  "canonical_source_sha256": "8b989aff79444664fa8ea6a103764140eb03198a1dc63d3c81716da570cf02b2",
+  "source_occurrences_sha256": "716cec133a6c4c2a94bd5b1466b50f6d90a82a7883a5a457312997e03c8ee1e0",
+  "coordinates_bytes": 595024582,
+  "config_sha256": "679e1b6ee8521c32d9587fb3482438182a40a9a1f90f05ab9d16e3f57783d252",
+  "code_sha256": "4baee11bf190e0cc30c06f2fe63af6ac48cce069f84c26af9d6c0cc1fb4529f7",
+  "full_occurrences": 5416377,
+  "windows": [
+    {
+      "window": 0,
+      "phase": "train",
+      "start_utc": "2020-05-25T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-25T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 307
+    },
+    {
+      "window": 1,
+      "phase": "train",
+      "start_utc": "2020-05-25T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-25T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 178
+    },
+    {
+      "window": 2,
+      "phase": "train",
+      "start_utc": "2020-05-25T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-25T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 364
+    },
+    {
+      "window": 3,
+      "phase": "train",
+      "start_utc": "2020-05-25T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 496
+    },
+    {
+      "window": 4,
+      "phase": "train",
+      "start_utc": "2020-05-26T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 514
+    },
+    {
+      "window": 5,
+      "phase": "train",
+      "start_utc": "2020-05-26T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 396
+    },
+    {
+      "window": 6,
+      "phase": "train",
+      "start_utc": "2020-05-26T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-26T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 15862
+    },
+    {
+      "window": 7,
+      "phase": "train",
+      "start_utc": "2020-05-26T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 66008
+    },
+    {
+      "window": 8,
+      "phase": "train",
+      "start_utc": "2020-05-27T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 50618
+    },
+    {
+      "window": 9,
+      "phase": "train",
+      "start_utc": "2020-05-27T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 68651
+    },
+    {
+      "window": 10,
+      "phase": "train",
+      "start_utc": "2020-05-27T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-27T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 103068
+    },
+    {
+      "window": 11,
+      "phase": "train",
+      "start_utc": "2020-05-27T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 127429
+    },
+    {
+      "window": 12,
+      "phase": "train",
+      "start_utc": "2020-05-28T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 37202
+    },
+    {
+      "window": 13,
+      "phase": "train",
+      "start_utc": "2020-05-28T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 43268
+    },
+    {
+      "window": 14,
+      "phase": "train",
+      "start_utc": "2020-05-28T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-28T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 36623
+    },
+    {
+      "window": 15,
+      "phase": "train",
+      "start_utc": "2020-05-28T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 42699
+    },
+    {
+      "window": 16,
+      "phase": "train",
+      "start_utc": "2020-05-29T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 49546
+    },
+    {
+      "window": 17,
+      "phase": "train",
+      "start_utc": "2020-05-29T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 112160
+    },
+    {
+      "window": 18,
+      "phase": "train",
+      "start_utc": "2020-05-29T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-29T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 69890
+    },
+    {
+      "window": 19,
+      "phase": "train",
+      "start_utc": "2020-05-29T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 81562
+    },
+    {
+      "window": 20,
+      "phase": "train",
+      "start_utc": "2020-05-30T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 112453
+    },
+    {
+      "window": 21,
+      "phase": "train",
+      "start_utc": "2020-05-30T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 168137
+    },
+    {
+      "window": 22,
+      "phase": "train",
+      "start_utc": "2020-05-30T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-30T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 89763
+    },
+    {
+      "window": 23,
+      "phase": "train",
+      "start_utc": "2020-05-30T18:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 80427
+    },
+    {
+      "window": 24,
+      "phase": "train",
+      "start_utc": "2020-05-31T00:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 52121
+    },
+    {
+      "window": 25,
+      "phase": "train",
+      "start_utc": "2020-05-31T06:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 99401
+    },
+    {
+      "window": 26,
+      "phase": "train",
+      "start_utc": "2020-05-31T12:00:00+00:00",
+      "end_exclusive_utc": "2020-05-31T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 58065
+    },
+    {
+      "window": 27,
+      "phase": "train",
+      "start_utc": "2020-05-31T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 51255
+    },
+    {
+      "window": 28,
+      "phase": "train",
+      "start_utc": "2020-06-01T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 73018
+    },
+    {
+      "window": 29,
+      "phase": "train",
+      "start_utc": "2020-06-01T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 113725
+    },
+    {
+      "window": 30,
+      "phase": "train",
+      "start_utc": "2020-06-01T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-01T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 67251
+    },
+    {
+      "window": 31,
+      "phase": "train",
+      "start_utc": "2020-06-01T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 66390
+    },
+    {
+      "window": 32,
+      "phase": "development",
+      "start_utc": "2020-06-02T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 68525
+    },
+    {
+      "window": 33,
+      "phase": "development",
+      "start_utc": "2020-06-02T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 76392
+    },
+    {
+      "window": 34,
+      "phase": "development",
+      "start_utc": "2020-06-02T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-02T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 55571
+    },
+    {
+      "window": 35,
+      "phase": "development",
+      "start_utc": "2020-06-02T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 60144
+    },
+    {
+      "window": 36,
+      "phase": "development",
+      "start_utc": "2020-06-03T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 75423
+    },
+    {
+      "window": 37,
+      "phase": "development",
+      "start_utc": "2020-06-03T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 211719
+    },
+    {
+      "window": 38,
+      "phase": "development",
+      "start_utc": "2020-06-03T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-03T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 89321
+    },
+    {
+      "window": 39,
+      "phase": "development",
+      "start_utc": "2020-06-03T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 85285
+    },
+    {
+      "window": 40,
+      "phase": "development",
+      "start_utc": "2020-06-04T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 133727
+    },
+    {
+      "window": 41,
+      "phase": "development",
+      "start_utc": "2020-06-04T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 96145
+    },
+    {
+      "window": 42,
+      "phase": "development",
+      "start_utc": "2020-06-04T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-04T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 75258
+    },
+    {
+      "window": 43,
+      "phase": "development",
+      "start_utc": "2020-06-04T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 160070
+    },
+    {
+      "window": 44,
+      "phase": "test",
+      "start_utc": "2020-06-05T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 234883
+    },
+    {
+      "window": 45,
+      "phase": "test",
+      "start_utc": "2020-06-05T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 181522
+    },
+    {
+      "window": 46,
+      "phase": "test",
+      "start_utc": "2020-06-05T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-05T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 191341
+    },
+    {
+      "window": 47,
+      "phase": "test",
+      "start_utc": "2020-06-05T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 178709
+    },
+    {
+      "window": 48,
+      "phase": "test",
+      "start_utc": "2020-06-06T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 239318
+    },
+    {
+      "window": 49,
+      "phase": "test",
+      "start_utc": "2020-06-06T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 179803
+    },
+    {
+      "window": 50,
+      "phase": "test",
+      "start_utc": "2020-06-06T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-06T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 155506
+    },
+    {
+      "window": 51,
+      "phase": "test",
+      "start_utc": "2020-06-06T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 95463
+    },
+    {
+      "window": 52,
+      "phase": "test",
+      "start_utc": "2020-06-07T00:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T06:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 200778
+    },
+    {
+      "window": 53,
+      "phase": "test",
+      "start_utc": "2020-06-07T06:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 244899
+    },
+    {
+      "window": 54,
+      "phase": "test",
+      "start_utc": "2020-06-07T12:00:00+00:00",
+      "end_exclusive_utc": "2020-06-07T18:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 177945
+    },
+    {
+      "window": 55,
+      "phase": "test",
+      "start_utc": "2020-06-07T18:00:00+00:00",
+      "end_exclusive_utc": "2020-06-08T00:00:00+00:00",
+      "duration_hours": 6.0,
+      "full_duration": true,
+      "eligible_occurrences": 209783
+    }
+  ],
+  "empty_windows": [],
+  "partial_windows": []
+}

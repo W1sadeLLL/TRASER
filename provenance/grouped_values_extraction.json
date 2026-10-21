@@ -1,0 +1,15 @@
+[
+  {
+    "path": "src/traser/visualization/aggregation.py",
+    "source": "research/src/opinion_system/hssc_journal_fix.py",
+    "source_sha256": "7486bd5158b78b890b4e43afd77c73d6d325cadf65854cb8fbd8a9ed69adc508",
+    "sha256": "0366e977c54238e824efb4d94ba093db25f3006cc336dbeb36595853727f7e88",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "grouped_values"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "a126c79cd743cc666231b9c3e9f290f9b83bc45fc090285b1f7df254f40fba6e",
+    "former_public_path": "src/opinion_system/hssc_journal_fix.py"
+  }
+]

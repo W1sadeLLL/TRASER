@@ -1,0 +1,16 @@
+{
+  "publication_files_scanned": 355,
+  "credential_or_large_file_findings": [],
+  "text_or_user_field_findings_in_numerical_json": [],
+  "blm_public_data_files": [
+    "data/blm/ids/blm_used_pid.part-001.csv",
+    "data/blm/ids/blm_used_pid.part-002.csv",
+    "data/blm/ids/blm_used_pid.part-003.csv",
+    "data/blm/ids/blm_used_pid.part-004.csv",
+    "data/blm/ids/blm_used_pid.part-005.csv",
+    "data/blm/ids/blm_used_pid.part-006.csv",
+    "data/blm/manifest.json"
+  ],
+  "excluded_local_master": true,
+  "privacy_revision": "0.1.1"
+}

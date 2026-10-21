@@ -1,0 +1,61 @@
+dataset,method,metric,mean,n_origins,best
+blm_x,TRASER,scaled_sliced_w2,0.1629042536429919,5,True
+blm_x,Pure BCM,scaled_sliced_w2,0.17166890612236513,5,False
+blm_x,WAR,scaled_sliced_w2,0.1696233302814215,5,False
+blm_x,WR,scaled_sliced_w2,0.18040209315566524,5,False
+blm_x,LQD,scaled_sliced_w2,0.3611897293337669,5,False
+blm_x,TRASER,marginal_W1_mean,0.014709579481553239,5,True
+blm_x,Pure BCM,marginal_W1_mean,0.016024787079129528,5,False
+blm_x,WAR,marginal_W1_mean,0.015519518686034354,5,False
+blm_x,WR,marginal_W1_mean,0.017645580642726998,5,False
+blm_x,LQD,marginal_W1_mean,0.042999612716481755,5,False
+blm_x,TRASER,marginal_W2_mean,0.017748698950819403,5,True
+blm_x,Pure BCM,marginal_W2_mean,0.019048287267784077,5,False
+blm_x,WAR,marginal_W2_mean,0.019510250955313346,5,False
+blm_x,WR,marginal_W2_mean,0.022339540314838317,5,False
+blm_x,LQD,marginal_W2_mean,0.05351388366548375,5,False
+blm_x,TRASER,marginal_KS_mean,0.08864677557552943,5,True
+blm_x,Pure BCM,marginal_KS_mean,0.09534540686867635,5,False
+blm_x,WAR,marginal_KS_mean,0.09993319472896908,5,False
+blm_x,WR,marginal_KS_mean,0.1090304779013234,5,False
+blm_x,LQD,marginal_KS_mean,0.28970938403745594,5,False
+blm_x,TRASER,density_L1,0.2631534980837045,5,False
+blm_x,Pure BCM,density_L1,0.2760964864696399,5,False
+blm_x,WAR,density_L1,0.25811192622310253,5,True
+blm_x,WR,density_L1,0.29061591982103824,5,False
+blm_x,LQD,density_L1,0.680084289373686,5,False
+blm_x,TRASER,covariance_Frobenius,0.08684529086824198,5,False
+blm_x,Pure BCM,covariance_Frobenius,0.09913531300582697,5,False
+blm_x,WAR,covariance_Frobenius,0.08308357207299165,5,True
+blm_x,WR,covariance_Frobenius,0.08837497989657053,5,False
+blm_x,LQD,covariance_Frobenius,0.09917198032219557,5,False
+hk_weibo,TRASER,scaled_sliced_w2,0.5225870960969928,63,True
+hk_weibo,Pure BCM,scaled_sliced_w2,0.5716596119095296,63,False
+hk_weibo,WAR,scaled_sliced_w2,0.7110721719579569,63,False
+hk_weibo,WR,scaled_sliced_w2,0.7087935603297832,63,False
+hk_weibo,LQD,scaled_sliced_w2,0.7363097446757545,63,False
+hk_weibo,TRASER,marginal_W1_mean,0.0528786648486368,63,True
+hk_weibo,Pure BCM,marginal_W1_mean,0.0582094482301238,63,False
+hk_weibo,WAR,marginal_W1_mean,0.05303453718023645,63,False
+hk_weibo,WR,marginal_W1_mean,0.053592963356852555,63,False
+hk_weibo,LQD,marginal_W1_mean,0.07241395931476334,63,False
+hk_weibo,TRASER,marginal_W2_mean,0.06300741822097312,63,False
+hk_weibo,Pure BCM,marginal_W2_mean,0.0695111411609413,63,False
+hk_weibo,WAR,marginal_W2_mean,0.061538616457621965,63,True
+hk_weibo,WR,marginal_W2_mean,0.06206086121801122,63,False
+hk_weibo,LQD,marginal_W2_mean,0.08592497910332642,63,False
+hk_weibo,TRASER,marginal_KS_mean,0.268002908553828,63,True
+hk_weibo,Pure BCM,marginal_KS_mean,0.2741347530886238,63,False
+hk_weibo,WAR,marginal_KS_mean,0.31004977136523404,63,False
+hk_weibo,WR,marginal_KS_mean,0.31192129682157,63,False
+hk_weibo,LQD,marginal_KS_mean,0.5045756193896874,63,False
+hk_weibo,TRASER,density_L1,0.48142102339721,63,True
+hk_weibo,Pure BCM,density_L1,0.5095862092452479,63,False
+hk_weibo,WAR,density_L1,0.5460752008450108,63,False
+hk_weibo,WR,density_L1,0.5458403716043526,63,False
+hk_weibo,LQD,density_L1,1.2137331682824521,63,False
+hk_weibo,TRASER,covariance_Frobenius,0.26619668490935144,63,False
+hk_weibo,Pure BCM,covariance_Frobenius,0.2813215852593884,63,False
+hk_weibo,WAR,covariance_Frobenius,0.28862355007941054,63,False
+hk_weibo,WR,covariance_Frobenius,0.2730383207324881,63,False
+hk_weibo,LQD,covariance_Frobenius,0.2570315585799346,63,True

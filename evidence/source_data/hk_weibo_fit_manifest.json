@@ -1,0 +1,14 @@
+{
+  "config_sha256": "9cbaa7c652018de6070b8397d8102958c7ee0f5c8838b6062d806599ba610588",
+  "fit_source_sha256": "4d2e8d2c39ce65b86b09bd1a7aea495d3fb5eddbdc5cd6ce431f5824a8f41270",
+  "mapping_sha256": "e46103bdd99205a1014a944dd5d8ae44f4622c8e78b5ebfc7b1ffaa17cf5fce7",
+  "weights_sha256": "ea487a4f25fb7029d1a13cc99b52072926321ca3f879d2f373812921cc4f876b",
+  "fit_end_exclusive_utc": "2025-11-28T00:00:00Z",
+  "fit_occurrences": 23975,
+  "fit_unique_texts": 20637,
+  "code_sha256": "d21b1538e707bd24101850b146045f9440d8f1b0b9a11dcd470e19a8db86d62e",
+  "model_sha256": "60ca7ef7b025335da946d8baf41d3eca3786fe6bcffa9b739cba5ce8459405f5",
+  "fit_uses_development_or_test": false,
+  "l2_before_pca": true,
+  "whitened": false
+}

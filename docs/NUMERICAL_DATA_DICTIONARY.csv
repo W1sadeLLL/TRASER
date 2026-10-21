@@ -1,0 +1,24 @@
+field,definition
+dataset,Case identifier: blm_x or hk_weibo
+window_hours,"Observation resolution, independent one-step series"
+forecast_hours,One full observation window
+horizon,Always 1 in current main experiment
+group,H0=Pure BCM; HF=Fixed assimilation; HA=Selected assimilation/TRASER
+seed,"11,29,47"
+origin,Issue window index within full event calendar
+target,"Target=origin+1, same phase"
+particles,Particle budget; target always uses full occurrence mass
+scaled_sliced_w2,sqrt(64 times mean projected squared W2); finite angular quadrature
+projection_sensitivity_scaled_sliced_w2,Same score with independent frozen directions
+marginal_W2_mean,Mean of 64 marginal W2 distances
+population_mean_MSE,Squared mean displacement / 64
+mean_displacement_l2,L2 distance between means
+centered_scaled_sliced_w2,Centered distance component
+symmetric_KL,Full 64-axis average of marginal symmetric KL
+sqrt_JS_arithmetic,Square root arithmetic Jensen-Shannon divergence
+sqrt_JS_geometric_unnormalized,"0.5 sqrt(symmetric KL), unnormalized geometric convention"
+density_L1,Marginal density L1 average
+marginal_W1_mean,Mean of 64 marginal W1 distances
+marginal_KS_mean,Mean of 64 marginal KS distances
+covariance_Frobenius,Frobenius distance of population covariance
+missing_density,Preserve null if target singleton or degenerate bandwidth; never zero fill

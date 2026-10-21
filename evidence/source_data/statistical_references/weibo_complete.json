@@ -1,0 +1,15 @@
+{
+  "state": "COMPLETE",
+  "forecast_rows": 567,
+  "methods": [
+    "WAR",
+    "WR",
+    "LQD"
+  ],
+  "test_origins": 63,
+  "development_origins": 3,
+  "all_targets_and_seeds": true,
+  "config_sha256": "fe14f3034328330c8600b48706712cc4894c0b6c33a7d2c7770a48095f3ce35a",
+  "identity_sha256": "a80048955b5fa90a9a7b8f76cd1ab0e547cab5681382e00f51aacca8017716e8",
+  "completed_utc": "2026-10-20T20:09:38.474395+00:00"
+}

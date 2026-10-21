@@ -1,0 +1,34 @@
+[
+  {
+    "path": "assets/hk_weibo/representation/coordinates.parquet",
+    "rows": 53918,
+    "removed_columns": [
+      "protocol_text_sha256"
+    ],
+    "all_remaining_columns_exactly_equal": true
+  },
+  {
+    "path": "assets/hk_weibo/w12/observations.parquet",
+    "rows": 62804,
+    "removed_columns": [
+      "protocol_text_sha256"
+    ],
+    "all_remaining_columns_exactly_equal": true
+  },
+  {
+    "path": "assets/hk_weibo/w3/observations.parquet",
+    "rows": 62804,
+    "removed_columns": [
+      "protocol_text_sha256"
+    ],
+    "all_remaining_columns_exactly_equal": true
+  },
+  {
+    "path": "assets/hk_weibo/w6/observations.parquet",
+    "rows": 62804,
+    "removed_columns": [
+      "protocol_text_sha256"
+    ],
+    "all_remaining_columns_exactly_equal": true
+  }
+]

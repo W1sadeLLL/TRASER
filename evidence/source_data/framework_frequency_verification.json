@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "old_label": "6 h / 12 h / 24 h",
+  "new_label": "3, 6, 12, 24 h",
+  "old_pdf_sha256": "0416d67b01f79efce466e9b42bc453bba7701db07fcfee32386f60460f73ad38",
+  "new_pdf_sha256": "3e6a45bd1af619d4db24e05217b53df303f37b51e17d12ced0cc121951555dad",
+  "svg_exactly_one_label_changed": true,
+  "all_other_pdf_text_and_canvas_unchanged": true,
+  "checked_utc": "2026-10-20T20:35:14.062533+00:00"
+}

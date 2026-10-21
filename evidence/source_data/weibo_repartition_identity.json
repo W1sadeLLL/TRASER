@@ -1,0 +1,21 @@
+{
+  "source_protocols": {
+    "blm_x": "hssc_adaptive_v3_sparse_v1",
+    "hk_weibo": "hssc_weibo_3d2d_3h6h12h_v1"
+  },
+  "weibo_complete_sha256": "b7342787c7cc85a8513b8874d15bd5e516da06a31f59db2b491d8fbad09d3731",
+  "weibo_annotation_complete_sha256": "ffabd969c6a3ed737848f6562ec3aad1ad1e32badce92983697d30ea01706d3a",
+  "case_resolutions": {
+    "blm_x": [
+      6,
+      12,
+      24
+    ],
+    "hk_weibo": [
+      3,
+      6,
+      12
+    ]
+  },
+  "raw_annotation_texts_in_submission": false
+}

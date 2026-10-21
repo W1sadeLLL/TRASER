@@ -1,0 +1,5479 @@
+{
+  "bcm": {
+    "alpha": 0.1,
+    "radius": 2.649635811635822,
+    "sigma": 0.05
+  },
+  "pure_bcm_development_score": 0.34966292209554173,
+  "mechanical_candidates": 367,
+  "fixed": {
+    "spec": {
+      "family": "MMD",
+      "strength": 0.01,
+      "steps": 24,
+      "learning_rate": 0.02,
+      "count_power": 0,
+      "innovation_response": 0
+    },
+    "score": 0.23279401517828266,
+    "rows": [
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.36967241786960164,
+        "scaled_sliced_w2_squared": 0.13665769653355736,
+        "centered_scaled_sliced_w2": 0.2500111850862452,
+        "mean_displacement_l2": 0.2723088391244923,
+        "population_mean_MSE": 0.0011586266228957596,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009215809404850006
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2309161976777211,
+        "scaled_sliced_w2_squared": 0.053322290349936366,
+        "centered_scaled_sliced_w2": 0.1597927084662835,
+        "mean_displacement_l2": 0.16669907219581545,
+        "population_mean_MSE": 0.0004341965729835265,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009084418416023254
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.16634431085287088,
+        "scaled_sliced_w2_squared": 0.027670429753116538,
+        "centered_scaled_sliced_w2": 0.13721614665513027,
+        "mean_displacement_l2": 0.09403275413511146,
+        "population_mean_MSE": 0.00013815873203491127,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009291060268878937
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.1769321365969435,
+        "scaled_sliced_w2_squared": 0.03130498096075948,
+        "centered_scaled_sliced_w2": 0.13017183589950207,
+        "mean_displacement_l2": 0.11983436109610877,
+        "population_mean_MSE": 0.0002243792828017592,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009503625333309174
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.20722225501226374,
+        "scaled_sliced_w2_squared": 0.04294106297236766,
+        "centered_scaled_sliced_w2": 0.14913281831277303,
+        "mean_displacement_l2": 0.1438765633258492,
+        "population_mean_MSE": 0.00032344477303839213,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009036324918270111
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.23957835517684647,
+        "scaled_sliced_w2_squared": 0.0573977882692432,
+        "centered_scaled_sliced_w2": 0.1838337646716103,
+        "mean_displacement_l2": 0.1536324680394942,
+        "population_mean_MSE": 0.0003687958630610345,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009105578064918518
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22372584514558458,
+        "scaled_sliced_w2_squared": 0.05005325378610609,
+        "centered_scaled_sliced_w2": 0.1683241376135776,
+        "mean_displacement_l2": 0.14737787650373949,
+        "population_mean_MSE": 0.000339378726292992,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009009800851345062
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.3902046919998192,
+        "scaled_sliced_w2_squared": 0.15225970165867378,
+        "centered_scaled_sliced_w2": 0.2585278640642934,
+        "mean_displacement_l2": 0.29227221072320236,
+        "population_mean_MSE": 0.0013347350806410627,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009200014173984528
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2391685783204659,
+        "scaled_sliced_w2_squared": 0.057201608855832836,
+        "centered_scaled_sliced_w2": 0.16274811785172774,
+        "mean_displacement_l2": 0.1752559813288921,
+        "population_mean_MSE": 0.00047991654674301527,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009206309914588928
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.16863596329063135,
+        "scaled_sliced_w2_squared": 0.02843808811495916,
+        "centered_scaled_sliced_w2": 0.1400712712462526,
+        "mean_displacement_l2": 0.09390488318728633,
+        "population_mean_MSE": 0.00013778323572527957,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009267181158065796
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.17657403042166284,
+        "scaled_sliced_w2_squared": 0.031178388219350317,
+        "centered_scaled_sliced_w2": 0.1312204792103035,
+        "mean_displacement_l2": 0.11815064136587929,
+        "population_mean_MSE": 0.00021811834461200977,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009444504976272583
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.20761098546368686,
+        "scaled_sliced_w2_squared": 0.0431023212852032,
+        "centered_scaled_sliced_w2": 0.14989836220098812,
+        "mean_displacement_l2": 0.14364122769826418,
+        "population_mean_MSE": 0.00032238753585413406,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009730309247970581
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.23834395732473004,
+        "scaled_sliced_w2_squared": 0.05680784199321273,
+        "centered_scaled_sliced_w2": 0.1824292015738235,
+        "mean_displacement_l2": 0.15338653267594912,
+        "population_mean_MSE": 0.00036761606884921883,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009271986782550812
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22576825466909947,
+        "scaled_sliced_w2_squared": 0.05097130481633136,
+        "centered_scaled_sliced_w2": 0.16863492524579896,
+        "mean_displacement_l2": 0.15011184764593088,
+        "population_mean_MSE": 0.0003520869813074244,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009254105389118195
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.3745738285998557,
+        "scaled_sliced_w2_squared": 0.14030555307195408,
+        "centered_scaled_sliced_w2": 0.2509928591723,
+        "mean_displacement_l2": 0.27804340976989195,
+        "population_mean_MSE": 0.0012079396518198133,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0008713975548744202
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2365515043584507,
+        "scaled_sliced_w2_squared": 0.05595661421424613,
+        "centered_scaled_sliced_w2": 0.16124158641776576,
+        "mean_displacement_l2": 0.17308311594066103,
+        "population_mean_MSE": 0.00046809007849575476,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009066872298717499
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.1632479677507392,
+        "scaled_sliced_w2_squared": 0.026649898974746383,
+        "centered_scaled_sliced_w2": 0.13807372941218252,
+        "mean_displacement_l2": 0.08709502982924909,
+        "population_mean_MSE": 0.00011852412845246544,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009952187538146973
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.17496736720333342,
+        "scaled_sliced_w2_squared": 0.03061357958606611,
+        "centered_scaled_sliced_w2": 0.13040113493702385,
+        "mean_displacement_l2": 0.11665814842179784,
+        "population_mean_MSE": 0.00021264255614378456,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000917334109544754
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.2082750451591011,
+        "scaled_sliced_w2_squared": 0.04337849443602561,
+        "centered_scaled_sliced_w2": 0.14985785778980187,
+        "mean_displacement_l2": 0.1446413388166645,
+        "population_mean_MSE": 0.00032689245147933017,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009084120392799377
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.24456645346447248,
+        "scaled_sliced_w2_squared": 0.059812750160189984,
+        "centered_scaled_sliced_w2": 0.18266043679924412,
+        "mean_displacement_l2": 0.1626281494345285,
+        "population_mean_MSE": 0.000413248671695302,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000978272408246994
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22579417238605626,
+        "scaled_sliced_w2_squared": 0.05098300828350409,
+        "centered_scaled_sliced_w2": 0.16948565016317632,
+        "mean_displacement_l2": 0.14918988796922367,
+        "population_mean_MSE": 0.000347775354254211,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000905301421880722
+      }
+    ],
+    "updates": [
+      {
+        "seed": 11,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6242334246635437
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6363070011138916
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.642071008682251
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6449177265167236
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6463730931282043
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6469693779945374
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.647063136100769
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6470287442207336
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6471643447875977
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6476108431816101
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6482900381088257
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6490107774734497
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.649622917175293
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6500778794288635
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6503905057907104
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6505845785140991
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6506940126419067
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.650787353515625
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6509312391281128
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6511242389678955
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6513070464134216
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6514340043067932
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6515063047409058
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6515445709228516
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6515631079673767
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.07597080990672112,
+        "actual_seconds": 0.07604825496673584,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.0831477977335453,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.36967241786960164,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6475220322608948
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6506787538528442
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6534176468849182
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.654244065284729
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6540225148200989
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6541759967803955
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6545481085777283
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6546419262886047
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6545650362968445
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6547355055809021
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6551440954208374
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6554532647132874
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.655493438243866
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6554455161094666
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6555461883544922
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557705402374268
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655923068523407
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6559111475944519
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6558398604393005
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6558496952056885
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.655941367149353
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6560125350952148
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6560130715370178
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559992432594299
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6560390591621399
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.0745919793844223,
+        "actual_seconds": 0.07466740906238556,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.08131760731339455,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2309161976777211,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.657456636428833
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6566751599311829
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6589773297309875
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.659155011177063
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6583784818649292
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588417887687683
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6596918702125549
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6598665714263916
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6595523953437805
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6595091223716736
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598433256149292
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601252555847168
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.660060703754425
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6598262786865234
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598008275032043
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600566506385803
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6603187322616577
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.660344660282135
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601998805999756
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601189374923706
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6601945161819458
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6603125333786011
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6603474617004395
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6603118181228638
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6602964997291565
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.0760825127363205,
+        "actual_seconds": 0.07616935297846794,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.07844257354736328,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.16634431085287088,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6537207961082458
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6547585129737854
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.657021701335907
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6568394899368286
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6560050249099731
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6564531326293945
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6573657989501953
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6576427221298218
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6574397683143616
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575102806091309
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578630208969116
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.658027172088623
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6578552722930908
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.657670259475708
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6577689051628113
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6580539345741272
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6582425832748413
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582205891609192
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.658130943775177
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6581417918205261
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.658230185508728
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582657694816589
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582232117652893
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582068800926208
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6582798361778259
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07366150617599487,
+        "actual_seconds": 0.07374319434165955,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.08119779080152512,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.1769321365969435,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.652904748916626
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6554948687553406
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6576054096221924
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576694846153259
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6571877002716064
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6576202511787415
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6582844257354736
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6584532856941223
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6583589911460876
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.658566951751709
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6590260863304138
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6593001484870911
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6591882109642029
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6589753031730652
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6590080857276917
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6592676639556885
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6594832539558411
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6594919562339783
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593969464302063
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593816876411438
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6594820022583008
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6595925092697144
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596320867538452
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6596227884292603
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596235036849976
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07492192089557648,
+        "actual_seconds": 0.07499895989894867,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.0808585099875927,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.20722225501226374,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6297314763069153
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.63263338804245
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6347219347953796
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6349013447761536
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6346043348312378
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6349645853042603
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6354779005050659
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6357405185699463
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.635917603969574
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6362136006355286
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6365311145782471
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6367001533508301
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6367184519767761
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6367479562759399
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368722915649414
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369869709014893
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6369787454605103
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6369009613990784
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6369041800498962
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6370257139205933
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6371590495109558
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6372126936912537
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6372134685516357
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.63723224401474
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372725367546082
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.0807943120598793,
+        "actual_seconds": 0.08087978884577751,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.08569199964404106,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.23957835517684647,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6199305057525635
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6327732801437378
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6396467089653015
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6433069109916687
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6452258825302124
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.646232545375824
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6466345191001892
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6467465162277222
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6468617916107178
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.647125244140625
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6475119590759277
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6479544043540955
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6484362483024597
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6489630937576294
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6494758725166321
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6498771905899048
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6501543521881104
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6504018306732178
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6506871581077576
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6509613394737244
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6511364579200745
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6511971354484558
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6511989831924438
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6511865258216858
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6511660218238831
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.0754094086587429,
+        "actual_seconds": 0.07548503577709198,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.08258457854390144,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.3902046919998192,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6468157172203064
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6505560874938965
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6530755758285522
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.653989315032959
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6538727879524231
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6541022062301636
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6545781493186951
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6547420620918274
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.654597818851471
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6546165943145752
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6549264788627625
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6552592515945435
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.655397355556488
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6554348468780518
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6555547118186951
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557443141937256
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655859649181366
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6558430194854736
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6557860970497131
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6557949781417847
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.655866801738739
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6559289693832397
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6559502482414246
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559709310531616
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.656025230884552
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.09048549830913544,
+        "actual_seconds": 0.09057793393731117,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.09722813218832016,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2391685783204659,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 21,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.657421886920929
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6566174030303955
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6591005325317383
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6590642929077148
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6582226157188416
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588525772094727
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6597937345504761
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6598621606826782
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6594309210777283
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.659429132938385
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598657369613647
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601513028144836
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6600133776664734
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6597697138786316
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598045229911804
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600677371025085
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6602564454078674
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6602367162704468
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601457595825195
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601487398147583
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6602373719215393
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6602978110313416
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6602835655212402
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6602563858032227
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6602755188941956
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.0754445381462574,
+        "actual_seconds": 0.07552989572286606,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.0778031162917614,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.16863596329063135,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6538270115852356
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6549497246742249
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6569877862930298
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6566096544265747
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6559566259384155
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.65655118227005
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6573829650878906
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6576168537139893
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6574813723564148
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575604677200317
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578256487846375
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6579337120056152
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6577911376953125
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6576766967773438
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6578248739242554
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6581095457077026
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.658259928226471
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582035422325134
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6581034660339355
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.658108651638031
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6581940054893494
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582522988319397
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582522988319397
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582520604133606
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.658294677734375
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07528011500835419,
+        "actual_seconds": 0.07535785809159279,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.08281245455145836,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.17657403042166284,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 21,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6528980731964111
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6557678580284119
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6574835777282715
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576501727104187
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6573330760002136
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6577726602554321
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6583636403083801
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6585121750831604
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6584289073944092
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6586108207702637
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6590069532394409
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6592198014259338
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.659127414226532
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.659019410610199
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6591504812240601
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.659406304359436
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6595120429992676
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6594102382659912
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593071222305298
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593716144561768
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.659535825252533
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6596346497535706
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596243977546692
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.659599244594574
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596290469169617
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07355617731809616,
+        "actual_seconds": 0.07363034412264824,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.07948989421129227,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.20761098546368686,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6297681927680969
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6326841115951538
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6347111463546753
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6347280144691467
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.63465416431427
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6351272463798523
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6355692744255066
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6357510685920715
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6358904838562012
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6361882090568542
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6365435123443604
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6367554664611816
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6367783546447754
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.636772871017456
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368677616119385
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369951963424683
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6370254158973694
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6369644403457642
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6369407176971436
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6370183825492859
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6371285319328308
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6371873021125793
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6372053623199463
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6372379064559937
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372851133346558
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.07367561385035515,
+        "actual_seconds": 0.07374805584549904,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.07856026664376259,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.23834395732473004,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.623115062713623
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6353492140769958
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.64136803150177
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6446873545646667
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6462795734405518
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6469090580940247
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6470035314559937
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6468969583511353
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6469363570213318
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6473290324211121
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6480048894882202
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6487345695495605
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6493477821350098
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6498300433158875
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6502165794372559
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6504964828491211
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6506645679473877
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6507817506790161
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6509219408035278
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6510919332504272
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6512404084205627
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6513316631317139
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6513811349868774
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6514202356338501
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6514597535133362
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.07367333769798279,
+        "actual_seconds": 0.07374707981944084,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.0808466225862503,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.3745738285998557,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6468694806098938
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6504150629043579
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6533204913139343
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.654133141040802
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6538341045379639
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6539946794509888
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.654434084892273
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6545787453651428
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6544805765151978
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6546231508255005
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6550444960594177
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6553826332092285
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6554282903671265
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6553705930709839
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6554717421531677
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557036638259888
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655861496925354
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6558560132980347
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6557942628860474
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.655805230140686
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6558827757835388
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6559386253356934
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6559447646141052
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559594869613647
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6560245752334595
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.07546847313642502,
+        "actual_seconds": 0.07554780691862106,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.08219800516963005,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2365515043584507,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6578375697135925
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6565675735473633
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6591714024543762
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6591625213623047
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6582829356193542
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588553786277771
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6598339080810547
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6600018739700317
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.65957111120224
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6594485640525818
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598002314567566
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601261496543884
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.660080075263977
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6598536968231201
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598426103591919
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600983738899231
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6603321433067322
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6603299379348755
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601849794387817
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601199507713318
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6602030992507935
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6603206396102905
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6603612303733826
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6603364944458008
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6603161096572876
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.07349468767642975,
+        "actual_seconds": 0.07358282431960106,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.0758560448884964,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.1632479677507392,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.653976559638977
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6550196409225464
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.65700763463974
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6567584276199341
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6560605764389038
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6565417051315308
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6574216485023499
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6577380895614624
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6575659513473511
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575608253479004
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578165292739868
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6579705476760864
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6578652262687683
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6577414274215698
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6578418016433716
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6580899357795715
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6582605242729187
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582591533660889
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.658174455165863
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6581364274024963
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6581792831420898
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582428216934204
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582731604576111
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582870483398438
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6583245992660522
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07315176725387573,
+        "actual_seconds": 0.07322515547275543,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.080679751932621,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.17496736720333342,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.652821958065033
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6555019021034241
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6576788425445557
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576408743858337
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6571029424667358
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6575617790222168
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6583003401756287
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6585006713867188
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6583859920501709
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6585821509361267
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.659040629863739
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.659284770488739
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6591411828994751
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6589334607124329
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6590054631233215
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6592994928359985
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6595185995101929
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.65950608253479
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593872904777527
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593601703643799
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6594558358192444
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6595620512962341
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596035361289978
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6596172451972961
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596501469612122
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07420584559440613,
+        "actual_seconds": 0.07428514957427979,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.08014469966292381,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.2082750451591011,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6289880275726318
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6323835849761963
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6343939900398254
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6347156167030334
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6346566677093506
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6349937915802002
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6354280710220337
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6356561779975891
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6357566714286804
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6359609961509705
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6362698078155518
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6365321278572083
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6366738677024841
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6367629766464233
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368682980537415
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369518041610718
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6369442343711853
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6368700861930847
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6368438005447388
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6369248628616333
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.637043833732605
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6371095180511475
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6371299624443054
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.637172520160675
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372435092926025
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.07520561292767525,
+        "actual_seconds": 0.0752803198993206,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.08009253069758415,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.24456645346447248,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      }
+    ],
+    "stage": "fixed",
+    "test_used": false,
+    "seconds": 1.5019440650939941
+  },
+  "selected": {
+    "spec": {
+      "family": "MMD",
+      "strength": 0.01,
+      "steps": 24,
+      "learning_rate": 0.02,
+      "count_power": 0,
+      "innovation_response": 0
+    },
+    "score": 0.23279401517828266,
+    "rows": [
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.36967241786960164,
+        "scaled_sliced_w2_squared": 0.13665769653355736,
+        "centered_scaled_sliced_w2": 0.2500111850862452,
+        "mean_displacement_l2": 0.2723088391244923,
+        "population_mean_MSE": 0.0011586266228957596,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009215809404850006
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2309161976777211,
+        "scaled_sliced_w2_squared": 0.053322290349936366,
+        "centered_scaled_sliced_w2": 0.1597927084662835,
+        "mean_displacement_l2": 0.16669907219581545,
+        "population_mean_MSE": 0.0004341965729835265,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009084418416023254
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.16634431085287088,
+        "scaled_sliced_w2_squared": 0.027670429753116538,
+        "centered_scaled_sliced_w2": 0.13721614665513027,
+        "mean_displacement_l2": 0.09403275413511146,
+        "population_mean_MSE": 0.00013815873203491127,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009291060268878937
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.1769321365969435,
+        "scaled_sliced_w2_squared": 0.03130498096075948,
+        "centered_scaled_sliced_w2": 0.13017183589950207,
+        "mean_displacement_l2": 0.11983436109610877,
+        "population_mean_MSE": 0.0002243792828017592,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009503625333309174
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.20722225501226374,
+        "scaled_sliced_w2_squared": 0.04294106297236766,
+        "centered_scaled_sliced_w2": 0.14913281831277303,
+        "mean_displacement_l2": 0.1438765633258492,
+        "population_mean_MSE": 0.00032344477303839213,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009036324918270111
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.23957835517684647,
+        "scaled_sliced_w2_squared": 0.0573977882692432,
+        "centered_scaled_sliced_w2": 0.1838337646716103,
+        "mean_displacement_l2": 0.1536324680394942,
+        "population_mean_MSE": 0.0003687958630610345,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009105578064918518
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 11,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22372584514558458,
+        "scaled_sliced_w2_squared": 0.05005325378610609,
+        "centered_scaled_sliced_w2": 0.1683241376135776,
+        "mean_displacement_l2": 0.14737787650373949,
+        "population_mean_MSE": 0.000339378726292992,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009009800851345062
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.3902046919998192,
+        "scaled_sliced_w2_squared": 0.15225970165867378,
+        "centered_scaled_sliced_w2": 0.2585278640642934,
+        "mean_displacement_l2": 0.29227221072320236,
+        "population_mean_MSE": 0.0013347350806410627,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009200014173984528
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2391685783204659,
+        "scaled_sliced_w2_squared": 0.057201608855832836,
+        "centered_scaled_sliced_w2": 0.16274811785172774,
+        "mean_displacement_l2": 0.1752559813288921,
+        "population_mean_MSE": 0.00047991654674301527,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009206309914588928
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.16863596329063135,
+        "scaled_sliced_w2_squared": 0.02843808811495916,
+        "centered_scaled_sliced_w2": 0.1400712712462526,
+        "mean_displacement_l2": 0.09390488318728633,
+        "population_mean_MSE": 0.00013778323572527957,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009267181158065796
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.17657403042166284,
+        "scaled_sliced_w2_squared": 0.031178388219350317,
+        "centered_scaled_sliced_w2": 0.1312204792103035,
+        "mean_displacement_l2": 0.11815064136587929,
+        "population_mean_MSE": 0.00021811834461200977,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009444504976272583
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.20761098546368686,
+        "scaled_sliced_w2_squared": 0.0431023212852032,
+        "centered_scaled_sliced_w2": 0.14989836220098812,
+        "mean_displacement_l2": 0.14364122769826418,
+        "population_mean_MSE": 0.00032238753585413406,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009730309247970581
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.23834395732473004,
+        "scaled_sliced_w2_squared": 0.05680784199321273,
+        "centered_scaled_sliced_w2": 0.1824292015738235,
+        "mean_displacement_l2": 0.15338653267594912,
+        "population_mean_MSE": 0.00036761606884921883,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009271986782550812
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 29,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22576825466909947,
+        "scaled_sliced_w2_squared": 0.05097130481633136,
+        "centered_scaled_sliced_w2": 0.16863492524579896,
+        "mean_displacement_l2": 0.15011184764593088,
+        "population_mean_MSE": 0.0003520869813074244,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009254105389118195
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 12,
+        "target": 13,
+        "current_observation_count": 3108,
+        "scaled_sliced_w2": 0.3745738285998557,
+        "scaled_sliced_w2_squared": 0.14030555307195408,
+        "centered_scaled_sliced_w2": 0.2509928591723,
+        "mean_displacement_l2": 0.27804340976989195,
+        "population_mean_MSE": 0.0012079396518198133,
+        "target_occurrences": 2632,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0008713975548744202
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 13,
+        "target": 14,
+        "current_observation_count": 2632,
+        "scaled_sliced_w2": 0.2365515043584507,
+        "scaled_sliced_w2_squared": 0.05595661421424613,
+        "centered_scaled_sliced_w2": 0.16124158641776576,
+        "mean_displacement_l2": 0.17308311594066103,
+        "population_mean_MSE": 0.00046809007849575476,
+        "target_occurrences": 2873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009066872298717499
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 14,
+        "target": 15,
+        "current_observation_count": 2873,
+        "scaled_sliced_w2": 0.1632479677507392,
+        "scaled_sliced_w2_squared": 0.026649898974746383,
+        "centered_scaled_sliced_w2": 0.13807372941218252,
+        "mean_displacement_l2": 0.08709502982924909,
+        "population_mean_MSE": 0.00011852412845246544,
+        "target_occurrences": 873,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009952187538146973
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 15,
+        "target": 16,
+        "current_observation_count": 873,
+        "scaled_sliced_w2": 0.17496736720333342,
+        "scaled_sliced_w2_squared": 0.03061357958606611,
+        "centered_scaled_sliced_w2": 0.13040113493702385,
+        "mean_displacement_l2": 0.11665814842179784,
+        "population_mean_MSE": 0.00021264255614378456,
+        "target_occurrences": 2927,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000917334109544754
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 16,
+        "target": 17,
+        "current_observation_count": 2927,
+        "scaled_sliced_w2": 0.2082750451591011,
+        "scaled_sliced_w2_squared": 0.04337849443602561,
+        "centered_scaled_sliced_w2": 0.14985785778980187,
+        "mean_displacement_l2": 0.1446413388166645,
+        "population_mean_MSE": 0.00032689245147933017,
+        "target_occurrences": 2572,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.0009084120392799377
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 17,
+        "target": 18,
+        "current_observation_count": 2572,
+        "scaled_sliced_w2": 0.24456645346447248,
+        "scaled_sliced_w2_squared": 0.059812750160189984,
+        "centered_scaled_sliced_w2": 0.18266043679924412,
+        "mean_displacement_l2": 0.1626281494345285,
+        "population_mean_MSE": 0.000413248671695302,
+        "target_occurrences": 2005,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000978272408246994
+      },
+      {
+        "dataset": "hk_weibo",
+        "window_hours": 6,
+        "forecast_hours": 6,
+        "horizon": 1,
+        "particles": 1000,
+        "phase": "development",
+        "group": "HA",
+        "seed": 47,
+        "origin": 18,
+        "target": 19,
+        "current_observation_count": 2005,
+        "scaled_sliced_w2": 0.22579417238605626,
+        "scaled_sliced_w2_squared": 0.05098300828350409,
+        "centered_scaled_sliced_w2": 0.16948565016317632,
+        "mean_displacement_l2": 0.14918988796922367,
+        "population_mean_MSE": 0.000347775354254211,
+        "target_occurrences": 513,
+        "full_target_mass": true,
+        "directions": 256,
+        "solver_backend": "CUDA float64 exact projected quantile integral",
+        "elapsed_seconds": 0.000905301421880722
+      }
+    ],
+    "updates": [
+      {
+        "seed": 11,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6242334246635437
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6363070011138916
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.642071008682251
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6449177265167236
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6463730931282043
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6469693779945374
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.647063136100769
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6470287442207336
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6471643447875977
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6476108431816101
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6482900381088257
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6490107774734497
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.649622917175293
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6500778794288635
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6503905057907104
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6505845785140991
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6506940126419067
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.650787353515625
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6509312391281128
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6511242389678955
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6513070464134216
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6514340043067932
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6515063047409058
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6515445709228516
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6515631079673767
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.07597080990672112,
+        "actual_seconds": 0.07604825496673584,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.0831477977335453,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.36967241786960164,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6475220322608948
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6506787538528442
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6534176468849182
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.654244065284729
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6540225148200989
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6541759967803955
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6545481085777283
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6546419262886047
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6545650362968445
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6547355055809021
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6551440954208374
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6554532647132874
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.655493438243866
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6554455161094666
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6555461883544922
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557705402374268
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655923068523407
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6559111475944519
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6558398604393005
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6558496952056885
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.655941367149353
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6560125350952148
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6560130715370178
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559992432594299
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6560390591621399
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.0745919793844223,
+        "actual_seconds": 0.07466740906238556,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.08131760731339455,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2309161976777211,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.657456636428833
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6566751599311829
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6589773297309875
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.659155011177063
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6583784818649292
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588417887687683
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6596918702125549
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6598665714263916
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6595523953437805
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6595091223716736
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598433256149292
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601252555847168
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.660060703754425
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6598262786865234
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598008275032043
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600566506385803
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6603187322616577
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.660344660282135
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601998805999756
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601189374923706
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6601945161819458
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6603125333786011
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6603474617004395
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6603118181228638
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6602964997291565
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.0760825127363205,
+        "actual_seconds": 0.07616935297846794,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.07844257354736328,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.16634431085287088,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6537207961082458
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6547585129737854
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.657021701335907
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6568394899368286
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6560050249099731
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6564531326293945
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6573657989501953
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6576427221298218
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6574397683143616
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575102806091309
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578630208969116
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.658027172088623
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6578552722930908
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.657670259475708
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6577689051628113
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6580539345741272
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6582425832748413
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582205891609192
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.658130943775177
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6581417918205261
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.658230185508728
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582657694816589
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582232117652893
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582068800926208
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6582798361778259
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07366150617599487,
+        "actual_seconds": 0.07374319434165955,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.08119779080152512,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.1769321365969435,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.652904748916626
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6554948687553406
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6576054096221924
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576694846153259
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6571877002716064
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6576202511787415
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6582844257354736
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6584532856941223
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6583589911460876
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.658566951751709
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6590260863304138
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6593001484870911
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6591882109642029
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6589753031730652
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6590080857276917
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6592676639556885
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6594832539558411
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6594919562339783
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593969464302063
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593816876411438
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6594820022583008
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6595925092697144
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596320867538452
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6596227884292603
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596235036849976
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07492192089557648,
+        "actual_seconds": 0.07499895989894867,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.0808585099875927,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.20722225501226374,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 11,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6297314763069153
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.63263338804245
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6347219347953796
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6349013447761536
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6346043348312378
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6349645853042603
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6354779005050659
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6357405185699463
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.635917603969574
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6362136006355286
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6365311145782471
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6367001533508301
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6367184519767761
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6367479562759399
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368722915649414
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369869709014893
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6369787454605103
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6369009613990784
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6369041800498962
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6370257139205933
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6371590495109558
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6372126936912537
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6372134685516357
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.63723224401474
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372725367546082
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.0807943120598793,
+        "actual_seconds": 0.08087978884577751,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.08569199964404106,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.23957835517684647,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6199305057525635
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6327732801437378
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6396467089653015
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6433069109916687
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6452258825302124
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.646232545375824
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6466345191001892
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6467465162277222
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6468617916107178
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.647125244140625
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6475119590759277
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6479544043540955
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6484362483024597
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6489630937576294
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6494758725166321
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6498771905899048
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6501543521881104
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6504018306732178
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6506871581077576
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6509613394737244
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6511364579200745
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6511971354484558
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6511989831924438
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6511865258216858
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6511660218238831
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.0754094086587429,
+        "actual_seconds": 0.07548503577709198,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.08258457854390144,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.3902046919998192,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6468157172203064
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6505560874938965
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6530755758285522
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.653989315032959
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6538727879524231
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6541022062301636
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6545781493186951
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6547420620918274
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.654597818851471
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6546165943145752
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6549264788627625
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6552592515945435
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.655397355556488
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6554348468780518
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6555547118186951
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557443141937256
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655859649181366
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6558430194854736
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6557860970497131
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6557949781417847
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.655866801738739
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6559289693832397
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6559502482414246
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559709310531616
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.656025230884552
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.09048549830913544,
+        "actual_seconds": 0.09057793393731117,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.09722813218832016,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2391685783204659,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 21,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.657421886920929
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6566174030303955
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6591005325317383
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6590642929077148
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6582226157188416
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588525772094727
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6597937345504761
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6598621606826782
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6594309210777283
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.659429132938385
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598657369613647
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601513028144836
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6600133776664734
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6597697138786316
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598045229911804
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600677371025085
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6602564454078674
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6602367162704468
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601457595825195
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601487398147583
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6602373719215393
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6602978110313416
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6602835655212402
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6602563858032227
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6602755188941956
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.0754445381462574,
+        "actual_seconds": 0.07552989572286606,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.0778031162917614,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.16863596329063135,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6538270115852356
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6549497246742249
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6569877862930298
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6566096544265747
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6559566259384155
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.65655118227005
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6573829650878906
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6576168537139893
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6574813723564148
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575604677200317
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578256487846375
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6579337120056152
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6577911376953125
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6576766967773438
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6578248739242554
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6581095457077026
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.658259928226471
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582035422325134
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6581034660339355
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.658108651638031
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6581940054893494
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582522988319397
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582522988319397
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582520604133606
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.658294677734375
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07528011500835419,
+        "actual_seconds": 0.07535785809159279,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.08281245455145836,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.17657403042166284,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 21,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6528980731964111
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6557678580284119
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6574835777282715
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576501727104187
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6573330760002136
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6577726602554321
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6583636403083801
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6585121750831604
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6584289073944092
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6586108207702637
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6590069532394409
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6592198014259338
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.659127414226532
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.659019410610199
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6591504812240601
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.659406304359436
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6595120429992676
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6594102382659912
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593071222305298
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593716144561768
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.659535825252533
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6596346497535706
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596243977546692
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.659599244594574
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596290469169617
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07355617731809616,
+        "actual_seconds": 0.07363034412264824,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.07948989421129227,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.20761098546368686,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 29,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6297681927680969
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6326841115951538
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6347111463546753
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6347280144691467
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.63465416431427
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6351272463798523
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6355692744255066
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6357510685920715
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6358904838562012
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6361882090568542
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6365435123443604
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6367554664611816
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6367783546447754
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.636772871017456
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368677616119385
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369951963424683
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6370254158973694
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6369644403457642
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6369407176971436
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6370183825492859
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6371285319328308
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6371873021125793
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6372053623199463
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6372379064559937
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372851133346558
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.07367561385035515,
+        "actual_seconds": 0.07374805584549904,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.07856026664376259,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.23834395732473004,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 13,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.623115062713623
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6353492140769958
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.64136803150177
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6446873545646667
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6462795734405518
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6469090580940247
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6470035314559937
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6468969583511353
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6469363570213318
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6473290324211121
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6480048894882202
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6487345695495605
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6493477821350098
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6498300433158875
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6502165794372559
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6504964828491211
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6506645679473877
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6507817506790161
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6509219408035278
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6510919332504272
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6512404084205627
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6513316631317139
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6513811349868774
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6514202356338501
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6514597535133362
+          }
+        ],
+        "target_occurrences": 2632,
+        "distinct_coordinates": 2146,
+        "full_target_mass": true,
+        "wall_seconds": 0.07367333769798279,
+        "actual_seconds": 0.07374707981944084,
+        "target_prepare_seconds": 0.0070995427668094635,
+        "cold_equivalent_seconds": 0.0808466225862503,
+        "window": 13,
+        "observed_count": 2632,
+        "prior_observation_discrepancy": 0.3745738285998557,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 14,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6468694806098938
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6504150629043579
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6533204913139343
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.654133141040802
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6538341045379639
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6539946794509888
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.654434084892273
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6545787453651428
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6544805765151978
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6546231508255005
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6550444960594177
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6553826332092285
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6554282903671265
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6553705930709839
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6554717421531677
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6557036638259888
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.655861496925354
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6558560132980347
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6557942628860474
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.655805230140686
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6558827757835388
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6559386253356934
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6559447646141052
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6559594869613647
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6560245752334595
+          }
+        ],
+        "target_occurrences": 2873,
+        "distinct_coordinates": 2603,
+        "full_target_mass": true,
+        "wall_seconds": 0.07546847313642502,
+        "actual_seconds": 0.07554780691862106,
+        "target_prepare_seconds": 0.006650198251008987,
+        "cold_equivalent_seconds": 0.08219800516963005,
+        "window": 14,
+        "observed_count": 2873,
+        "prior_observation_discrepancy": 0.2365515043584507,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 15,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 22,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6578375697135925
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6565675735473633
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6591714024543762
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6591625213623047
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6582829356193542
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6588553786277771
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6598339080810547
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6600018739700317
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.65957111120224
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6594485640525818
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6598002314567566
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6601261496543884
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.660080075263977
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6598536968231201
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6598426103591919
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6600983738899231
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6603321433067322
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6603299379348755
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6601849794387817
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6601199507713318
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6602030992507935
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6603206396102905
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6603612303733826
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6603364944458008
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6603161096572876
+          }
+        ],
+        "target_occurrences": 873,
+        "distinct_coordinates": 812,
+        "full_target_mass": true,
+        "wall_seconds": 0.07349468767642975,
+        "actual_seconds": 0.07358282431960106,
+        "target_prepare_seconds": 0.00227322056889534,
+        "cold_equivalent_seconds": 0.0758560448884964,
+        "window": 15,
+        "observed_count": 873,
+        "prior_observation_discrepancy": 0.1632479677507392,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 16,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.653976559638977
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6550196409225464
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.65700763463974
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6567584276199341
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6560605764389038
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6565417051315308
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6574216485023499
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6577380895614624
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6575659513473511
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6575608253479004
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6578165292739868
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6579705476760864
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6578652262687683
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6577414274215698
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6578418016433716
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6580899357795715
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6582605242729187
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6582591533660889
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.658174455165863
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6581364274024963
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6581792831420898
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6582428216934204
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6582731604576111
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6582870483398438
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6583245992660522
+          }
+        ],
+        "target_occurrences": 2927,
+        "distinct_coordinates": 2436,
+        "full_target_mass": true,
+        "wall_seconds": 0.07315176725387573,
+        "actual_seconds": 0.07322515547275543,
+        "target_prepare_seconds": 0.00745459645986557,
+        "cold_equivalent_seconds": 0.080679751932621,
+        "window": 16,
+        "observed_count": 2927,
+        "prior_observation_discrepancy": 0.17496736720333342,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 17,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.652821958065033
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6555019021034241
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6576788425445557
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6576408743858337
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6571029424667358
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6575617790222168
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6583003401756287
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6585006713867188
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6583859920501709
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6585821509361267
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.659040629863739
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.659284770488739
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6591411828994751
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6589334607124329
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6590054631233215
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6592994928359985
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6595185995101929
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.65950608253479
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6593872904777527
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6593601703643799
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.6594558358192444
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6595620512962341
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6596035361289978
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.6596172451972961
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6596501469612122
+          }
+        ],
+        "target_occurrences": 2572,
+        "distinct_coordinates": 2260,
+        "full_target_mass": true,
+        "wall_seconds": 0.07420584559440613,
+        "actual_seconds": 0.07428514957427979,
+        "target_prepare_seconds": 0.005859550088644028,
+        "cold_equivalent_seconds": 0.08014469966292381,
+        "window": 17,
+        "observed_count": 2572,
+        "prior_observation_discrepancy": 0.2082750451591011,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      },
+      {
+        "seed": 47,
+        "origin": 18,
+        "method": "full_mass_Gaussian_MMD",
+        "strength": 0.01,
+        "steps": 24,
+        "selected_step": 24,
+        "curve": [
+          {
+            "step": 0,
+            "offset_objective": -0.6289880275726318
+          },
+          {
+            "step": 1,
+            "offset_objective": -0.6323835849761963
+          },
+          {
+            "step": 2,
+            "offset_objective": -0.6343939900398254
+          },
+          {
+            "step": 3,
+            "offset_objective": -0.6347156167030334
+          },
+          {
+            "step": 4,
+            "offset_objective": -0.6346566677093506
+          },
+          {
+            "step": 5,
+            "offset_objective": -0.6349937915802002
+          },
+          {
+            "step": 6,
+            "offset_objective": -0.6354280710220337
+          },
+          {
+            "step": 7,
+            "offset_objective": -0.6356561779975891
+          },
+          {
+            "step": 8,
+            "offset_objective": -0.6357566714286804
+          },
+          {
+            "step": 9,
+            "offset_objective": -0.6359609961509705
+          },
+          {
+            "step": 10,
+            "offset_objective": -0.6362698078155518
+          },
+          {
+            "step": 11,
+            "offset_objective": -0.6365321278572083
+          },
+          {
+            "step": 12,
+            "offset_objective": -0.6366738677024841
+          },
+          {
+            "step": 13,
+            "offset_objective": -0.6367629766464233
+          },
+          {
+            "step": 14,
+            "offset_objective": -0.6368682980537415
+          },
+          {
+            "step": 15,
+            "offset_objective": -0.6369518041610718
+          },
+          {
+            "step": 16,
+            "offset_objective": -0.6369442343711853
+          },
+          {
+            "step": 17,
+            "offset_objective": -0.6368700861930847
+          },
+          {
+            "step": 18,
+            "offset_objective": -0.6368438005447388
+          },
+          {
+            "step": 19,
+            "offset_objective": -0.6369248628616333
+          },
+          {
+            "step": 20,
+            "offset_objective": -0.637043833732605
+          },
+          {
+            "step": 21,
+            "offset_objective": -0.6371095180511475
+          },
+          {
+            "step": 22,
+            "offset_objective": -0.6371299624443054
+          },
+          {
+            "step": 23,
+            "offset_objective": -0.637172520160675
+          },
+          {
+            "step": 24,
+            "offset_objective": -0.6372435092926025
+          }
+        ],
+        "target_occurrences": 2005,
+        "distinct_coordinates": 1813,
+        "full_target_mass": true,
+        "wall_seconds": 0.07520561292767525,
+        "actual_seconds": 0.0752803198993206,
+        "target_prepare_seconds": 0.00481221079826355,
+        "cold_equivalent_seconds": 0.08009253069758415,
+        "window": 18,
+        "observed_count": 2005,
+        "prior_observation_discrepancy": 0.24456645346447248,
+        "base_strength": 0.01,
+        "count_power": 0,
+        "innovation_response": 0,
+        "future_target_used": false
+      }
+    ],
+    "stage": "fixed",
+    "test_used": false,
+    "seconds": 1.5019440650939941
+  },
+  "assimilation_candidates": 54,
+  "test_used": false,
+  "selected_utc": "2026-10-20T17:53:40.781836+00:00",
+  "window_hours": 6
+}

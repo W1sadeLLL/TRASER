@@ -1,0 +1,30 @@
+{
+  "topics": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "fractions": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "source_multipliers": {
+    "reduce_reach": 0.5,
+    "silence_sources": 0.0,
+    "redirect_influence": 2.0
+  },
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "horizons": [
+    1
+  ],
+  "common_random_numbers": true,
+  "source_self_weight": 1,
+  "conditional_not_causal": true
+}

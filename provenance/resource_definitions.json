@@ -1,0 +1,17 @@
+[
+  {
+    "source": "research/src/opinion_system/event_transport.py",
+    "source_sha256": "99e935bea1ba54daf1d32afd42bc780a8730de1597d5415d7ebba6fb077fbcb5",
+    "definitions": [
+      "Guard"
+    ]
+  },
+  {
+    "source": "research/src/opinion_system/event_transport_gpu.py",
+    "source_sha256": "a088848e98db42d30617f8af1999f60c6c6c8fa7b5c393b0e3faa765a8624b2b",
+    "definitions": [
+      "container_memory",
+      "ContainerGuard"
+    ]
+  }
+]

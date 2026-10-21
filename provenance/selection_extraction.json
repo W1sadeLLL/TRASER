@@ -1,0 +1,57 @@
+[
+  {
+    "path": "src/traser/experiments/select_weibo.py",
+    "source": "research/src/opinion_system/weibo_repartition_science.py",
+    "source_sha256": "26dd4035f63083244bdd2f3f5908d636dfd74998797cd9654e6d0beb1990ea11",
+    "sha256": "0ef7871a84777b71247c6433cd3c870b75bf355e6e226c0ea5b8e7f087da4844",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "select"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "079139a7bdce1e21914a98e7074fc77c8633bfc193bca45c4f1e37d82105413f",
+    "former_public_path": "src/opinion_system/weibo_repartition_science.py"
+  },
+  {
+    "path": "src/traser/assimilation/experiment.py",
+    "source": "research/src/opinion_system/hssc_adaptive.py",
+    "source_sha256": "17b652ce2a8c7c22355a61e3fa72f9f23def21f185018cfeb23b24bbf0f4dea8",
+    "sha256": "eed4c675e65bc1c60be62e283d89d0ea9da7e2017381524dafadbfbe259ccf3a",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "key",
+      "selection"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "f61044e4108be6904eea5c014d8c1b0129debe80b3b1a7d1bc046eef255a84ee",
+    "former_public_path": "src/opinion_system/hssc_adaptive.py"
+  },
+  {
+    "path": "src/traser/assimilation/experiment.py",
+    "source": "research/src/opinion_system/hssc_adaptive.py",
+    "source_sha256": "17b652ce2a8c7c22355a61e3fa72f9f23def21f185018cfeb23b24bbf0f4dea8",
+    "sha256": "eed4c675e65bc1c60be62e283d89d0ea9da7e2017381524dafadbfbe259ccf3a",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "key"
+    ],
+    "classes": {
+      "Experiment": [
+        "clouds",
+        "semantic",
+        "adaptive_update",
+        "clear_phase"
+      ]
+    },
+    "initial_extraction_sha256": "f963a9dfdc9b5801723993b0dcea387b480c44cd8d6d1a4e9f6764bdb4e25be6",
+    "former_public_path": "src/opinion_system/hssc_adaptive.py"
+  },
+  {
+    "path": "assets/blm_x/mechanical_anchor.json",
+    "source": "research/results/hssc_bcm_v2/blm_x/bcm_selection.json",
+    "source_sha256": "b7f2656de96172318963bee94475bbe43c099a0864619dd71e3c4138e46bf547",
+    "sha256": "b7f2656de96172318963bee94475bbe43c099a0864619dd71e3c4138e46bf547",
+    "operation": "byte copy",
+    "initial_extraction_sha256": "b7f2656de96172318963bee94475bbe43c099a0864619dd71e3c4138e46bf547"
+  }
+]

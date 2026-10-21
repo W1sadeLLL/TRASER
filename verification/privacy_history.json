@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Reachable main branch history after publication-commit replacement; initial README-only commit retained",
+  "reachable_commit_count": 2,
+  "retired_identity_bearing_publication_commit": "0415aafbceaf81c1e4d54f348a5355c6d8e155a0",
+  "retired_data_blobs_absent_from_reachable_history": {
+    "data/weibo/weibo_posts.csv": "476fbd6ba2a486d14ec29a05e6c81447b92ddbe9",
+    "assets/hk_weibo/representation/coordinates.parquet": "21358cf86144c9cc03f35bfafc32d055347496d5",
+    "assets/hk_weibo/w3/observations.parquet": "fd9025a0474f8b16ce6ffe9e1f2fe0664adefeb9",
+    "assets/hk_weibo/w6/observations.parquet": "af0d160b138090b32e7615a27e367b3eb2b4bb25",
+    "assets/hk_weibo/w12/observations.parquet": "e3361af55e05b5c426e6c568853048a66e1ed556"
+  },
+  "initial_readme_only_commit": "50d69d4e4c4e5b93125ca83a96ae5da692f27ac1",
+  "private_backups_not_tracked": true,
+  "blm_native_post_id_parts_intentionally_retained": true
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.2",
+    "pyarrow": "24.0.0",
+    "torch": "2.11.0+cpu",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.6.0"
+  },
+  "numerical_imports": "PASS",
+  "cuda_available": false,
+  "gpu": null,
+  "full_scientific_run": false
+}

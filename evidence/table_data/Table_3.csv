@@ -1,0 +1,12 @@
+﻿row,group,column_1,column_2,column_3,column_4,column_5,column_6,column_7
+1,Lower is better (↓).,Method,D_\Theta↓,\overlineW_1↓,\overlineW_2↓,\overlineKS↓,L_1↓,\|\Delta\Sigma\|_F↓
+2,BLM/X (n=5 origins),TRASER,0.1629,0.0147,0.0177,0.0886,0.2632,0.0868
+3,BLM/X (n=5 origins),Pure BCM,0.1717,0.0160,0.0190,0.0953,0.2761,0.0991
+4,BLM/X (n=5 origins),WAR,0.1696,0.0155,0.0195,0.0999,0.2581,0.0831
+5,BLM/X (n=5 origins),WR,0.1804,0.0176,0.0223,0.1090,0.2906,0.0884
+6,BLM/X (n=5 origins),LQD,0.3612,0.0430,0.0535,0.2897,0.6801,0.0992
+7,Weibo (n=63 origins),TRASER,0.5226,0.0529,0.0630,0.2680,0.4814,0.2662
+8,Weibo (n=63 origins),Pure BCM,0.5717,0.0582,0.0695,0.2741,0.5096,0.2813
+9,Weibo (n=63 origins),WAR,0.7111,0.0530,0.0615,0.3100,0.5461,0.2886
+10,Weibo (n=63 origins),WR,0.7088,0.0536,0.0621,0.3119,0.5458,0.2730
+11,Weibo (n=63 origins),LQD,0.7363,0.0724,0.0859,0.5046,1.2137,0.2570

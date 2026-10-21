@@ -1,0 +1,8 @@
+﻿row,group,column_1,column_2,column_3,column_4,column_5
+1,,"Case, window",n,Pure BCM,Assimilation,Difference
+2,,"BLM/X, 6 h",11,"\shortstack[l]0.1780\\[0.0760, 0.2734]","\shortstack[l]0.1461\\[0.0760, 0.2456]","\shortstack[l]-0.0319\\[-0.0715, -0.0171]"
+3,,"BLM/X, 12 h",5,"\shortstack[l]0.1717\\[0.1220, 0.2591]","\shortstack[l]0.1629\\[0.1220, 0.2434]","\shortstack[l]-0.0088\\[-0.0097, -0.0049]"
+4,,"BLM/X, 24 h",2,"\shortstack[l]0.1653\\[0.1170, 0.2137]","\shortstack[l]0.1596\\[0.1170, 0.2022]",-0.0058\textsuperscript*
+5,,"Weibo, 3 h",235,"\shortstack[l]0.7536\\[0.1757, 1.5172]","\shortstack[l]0.6642\\[0.1641, 1.4196]","\shortstack[l]-0.0893\\[-0.1138, -0.0676]"
+6,,"Weibo, 6 h",123,"\shortstack[l]0.6706\\[0.2639, 1.5021]","\shortstack[l]0.6708\\[0.1619, 1.4769]","\shortstack[l]0.00018\\[-0.0400, 0.0378]"
+7,,"Weibo, 12 h",63,"\shortstack[l]0.5717\\[0.1696, 0.8634]","\shortstack[l]0.5226\\[0.1696, 0.7876]","\shortstack[l]-0.0491\\[-0.0789, -0.0241]"

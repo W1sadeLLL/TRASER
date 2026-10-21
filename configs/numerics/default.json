@@ -1,0 +1,79 @@
+{
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "sliced": {
+    "seed": 2026101301,
+    "sensitivity_seed": 2026101302,
+    "orthogonal_bases": 4,
+    "directions": 256,
+    "dimension_scale": 64,
+    "full_mass_quantile_integration": true,
+    "target_accumulation_dtype": "float64",
+    "evaluation_dtype": "float64",
+    "training_dtype": "float32",
+    "root_floor": 1e-12,
+    "sensitivity_used_for_selection": false
+  },
+  "assimilation": {
+    "strengths": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "steps": 8,
+    "learning_rate": 0.05,
+    "bandwidth_seed": 11,
+    "bandwidth_max_posts": 1000,
+    "row_block": 1024,
+    "target_block": 4096,
+    "device": "cuda",
+    "objective": "full occurrence weighted Gaussian MMD including self diagonals plus point displacement; target-only constant omitted"
+  },
+  "references": {
+    "WAR": [
+      {}
+    ],
+    "WR": [
+      {
+        "rank": 1
+      },
+      {
+        "rank": 2
+      }
+    ],
+    "LQD": {
+      "bandwidths": [
+        0.025,
+        0.05
+      ],
+      "ranks": [
+        1,
+        2
+      ],
+      "ridges": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "initialization": "current observed distribution at issue time; inherited coordinate ranks",
+    "selection": "complete one-step development dimension-scaled sliced W2"
+  },
+  "resources": {
+    "device": "cuda",
+    "torch_threads": 7,
+    "blas_threads": 7,
+    "ot_threads": 7,
+    "minimum_ram_bytes": 25000000000,
+    "bytes_per_transport_variable": 32,
+    "maximum_new_swap_bytes": 2000000000,
+    "bcm_row_block": 1024,
+    "cost_row_block": 256,
+    "ot_iteration_limit": 8000000,
+    "large_ot_jobs": 1,
+    "gpu_heavy_jobs": 1
+  }
+}

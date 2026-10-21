@@ -1,0 +1,16 @@
+﻿row,group,column_1,column_2,column_3,column_4,column_5,column_6
+1,,Property,BLM/X,Weibo,,,
+2,,Posts,"5,416,377","62,804",,,
+3,,Start (UTC),25 May 2020,25 November 2025,,,
+4,,"End, excluded",8 June 2020,1 January 2026,,,
+5,,Observation hours,6/12/24,3/6/12,,,
+6,,Calendar windows,56/28/14,296/148/74,,,
+7,,Test origins,11/5/2,235/123/63,,,
+8,,Particles,"10,000","1,000",,,
+9,,Case,Hours,Windows,Nonempty,Median posts,Post range
+10,,BLM/X,6,56,56,"78,409.5","178--244,899"
+11,,BLM/X,12,28,28,"165,948","485--445,677"
+12,,BLM/X,24,14,14,"335,075","1,345--833,405"
+13,,Weibo,3,296,273,10,"0--2,443"
+14,,Weibo,6,148,143,18.5,"0--4,650"
+15,,Weibo,12,74,74,47.5,"6--9,243"

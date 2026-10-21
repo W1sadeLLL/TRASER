@@ -1,0 +1,120 @@
+{
+  "source_protocols": {
+    "blm_x": "hssc_adaptive_v3_sparse_v1",
+    "hk_weibo": "hssc_weibo_3d2d_3h6h12h_v1"
+  },
+  "new_assets": [
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_11/window_11_prior.npy",
+      "sha256": "ce2b585edbf649341258fad8cded8794623cb168ff4ecb304ccb1a3c06e0f8aa"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_11/window_42_prior.npy",
+      "sha256": "4edcabda94632541d3a50d50c6cda9600337c5a2c2e292fbfce44afbfb3816dd"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_11/window_73_prior.npy",
+      "sha256": "f1a511fb36c02e839594a27dedd00a68f1b362d490f4ac127f815c2c51572ad1"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_29/window_11_prior.npy",
+      "sha256": "f7bbd56c0ea541fce9c1da4f551ba07da90467fcc2c3cd77b11064f61f8b45b4"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_29/window_42_prior.npy",
+      "sha256": "abc0618365dc657fe1f3e7d156492e6dd30a051ebe448602a0a9029dadb0a277"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_29/window_73_prior.npy",
+      "sha256": "c5e4be9f3d916918d93144d6a7b8e59291b4805017a9b20476e40888c5cb4698"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_47/window_11_prior.npy",
+      "sha256": "561ed91d1745ba8bb87d526fca3bcb65b57004f8fe25f2c82af6addf696d29a0"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_47/window_42_prior.npy",
+      "sha256": "063b8e444751100cb880454a1d5d8ac1df0134334905e78a1608f3c463e94992"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/H0/seed_47/window_73_prior.npy",
+      "sha256": "12cdc2e1b79392405e89d71db9ff3f030fc6823327e3e02ed1b03ed7940eeda1"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_11_prior.npy",
+      "sha256": "ce2b585edbf649341258fad8cded8794623cb168ff4ecb304ccb1a3c06e0f8aa"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_11_analysis.npy",
+      "sha256": "f99b948cebdab6297b0456f14bb7b68c22c92ef91daeb979968a7d2e8d579b9e"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_42_prior.npy",
+      "sha256": "2d30645caea4ac59fd4c61e9fea2967360468bfa1eb4b3d58646726721b16e5b"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_42_analysis.npy",
+      "sha256": "7fb29b0c84a18e38cd1622030fd5ba79fdb78bed61c1801d661a1865fb2e7155"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_73_prior.npy",
+      "sha256": "f13e9838a9fd83e07807dfc0347e09af02296596d131427412471a858dc81a44"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_11/window_73_analysis.npy",
+      "sha256": "daab0a4543f6f3500630d7ab7eeccfd2bbc9fd82008aeb9fed98869d06f29f6b"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_11_prior.npy",
+      "sha256": "f7bbd56c0ea541fce9c1da4f551ba07da90467fcc2c3cd77b11064f61f8b45b4"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_11_analysis.npy",
+      "sha256": "b008cd704aaef38c4e43ab89be5c885c5c0de050ff9baa92a981fad8f806608b"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_42_prior.npy",
+      "sha256": "40f1ce776db699a6302d1c90f9049e5a083fe88e78731d3970a9c055cb1258a8"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_42_analysis.npy",
+      "sha256": "cb97c6116d1aca9650dda2a31eefea5783bdf468b66a36207fe47588e8667559"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_73_prior.npy",
+      "sha256": "21f214b9ae9870622d46d302e2867204b46c9c2f0bc2d2b84267c6a0a5e9ff76"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_29/window_73_analysis.npy",
+      "sha256": "afcb3a7137d593d66484b8bff0525820f356e9ce6bfcd60fe624c004592cde1b"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_11_prior.npy",
+      "sha256": "561ed91d1745ba8bb87d526fca3bcb65b57004f8fe25f2c82af6addf696d29a0"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_11_analysis.npy",
+      "sha256": "4232ba39b551f5829b61870eae22a51f38b43941ca6771a01457670ecddf24b6"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_42_prior.npy",
+      "sha256": "d5364cdd938bceaeeac2ddabf68a8a4f89707f93b6860d4f8a71af3b48752ad4"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_42_analysis.npy",
+      "sha256": "ece912a095e2a7e0305ea1f0dbbf043f50218d95d2678c34f68c9cb3edfb7b92"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_73_prior.npy",
+      "sha256": "b6a80628bb9e6cefa3015948000c4e0398b46e3e7b13f4395d8e26fa74f0e792"
+    },
+    {
+      "path": "results/hssc_weibo_3d2d_3h6h12h_v1/hk_weibo/w12/semantic/test/HA/seed_47/window_73_analysis.npy",
+      "sha256": "55633ac98873d00f43a59216f90dba61fa41664a8fed78dcc075f452ffb28eb5"
+    }
+  ],
+  "observed_mass_complete": true,
+  "smoothing": false,
+  "downsampling": false,
+  "new_forecasts_generated": false
+}

@@ -1,0 +1,28 @@
+{
+  "primary_comparisons": [
+    "For BLM/X, TRASER has lower mean primary error than WAR, WR, LQD.",
+    "For Weibo, TRASER has lower mean primary error than WAR, WR, LQD."
+  ],
+  "references_lower_than_traser": {
+    "blm_x": {
+      "WAR": [
+        "density_L1",
+        "covariance_Frobenius"
+      ],
+      "WR": [],
+      "LQD": []
+    },
+    "hk_weibo": {
+      "WAR": [
+        "marginal_W2_mean"
+      ],
+      "WR": [
+        "marginal_W2_mean"
+      ],
+      "LQD": [
+        "covariance_Frobenius"
+      ]
+    }
+  },
+  "test_outcomes_changed_selection": false
+}

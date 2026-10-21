@@ -1,0 +1,38 @@
+{
+  "protocols": {
+    "blm_x": "hssc_adaptive_v3_sparse_v1",
+    "hk_weibo": "hssc_weibo_3d2d_3h6h12h_v1"
+  },
+  "source_sha256": {
+    "results/hssc_adaptive_v3_sparse_v1/all_metrics.json": "673a422be1f273be614c9b982829c1620402af1c74fd1df73de521626fd867fc",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/all_metrics.json": "0e83e1e5459a400db9b222e1f91c09874f4c3927f7f969f4fa80a6e639cc50cd",
+    "results/hssc_adaptive_v3_sparse_v1/paired_statistics.json": "a6df7a01aab520b2617a83de7e69e4373af774cae8f3116fe93fd7cd39eabc4d",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/paired_statistics.json": "39c75e927e21952860f9f6428ce2542c899b0bd21e52a8eefee4e1e43403d369",
+    "results/hssc_adaptive_v3_sparse_v1/reconstruction.json": "eec24b33c82a06f81b1c3da8e25cc5774ba1599d1cd3516e37b2704f22a607fe",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/reconstruction.json": "3b511753bc1502bfef54d9bfdbed2c1889412bc03f83c48439242142d4f24f2a",
+    "results/hssc_adaptive_v3_sparse_v1/all_updates.json": "2eff16ed8f462ac21f32443ce731067be088c43bba2b7b8b8dc72923d7c5ef6b",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/all_updates.json": "923e5a0745f277499df2b9ee699f3eb8b149336bca88e76d00691c026b7f9b20",
+    "results/hssc_adaptive_v3_sparse_v1/semantic_summary.json": "089b327235aead86eb0dc68c0b857a4fdee946959867de2a56c2afc71037dfd2",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/semantic_summary.json": "bc38210ded6ec2086797e6c900474a9e7d81854bae28b9dae9592b5649ba5846",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w3/summary.json": "8802d6fcb24269527682a6ac5fc73284c0d49c0e0656f45dbe5a53bce4d4909b",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w3/all_outcomes.json": "b49f453f65c34031c278fedfce391924a4c9623a589853839f3329778fad0369",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w3/paired_outcomes.json": "42f4f9e7aaad63aa74f9660c02834ab91b355acd6fec75c06574850fb5eef00b",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w6/summary.json": "6954a5bc91febd5d6f5526daf1c3076ba7f4b9fa27d0fca4962ed3aa63ba673d",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w6/summary.json": "b2cac21fe6d6ae830b8909c477baadbc8b332debbbfda9eead96175ee57934f0",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w6/all_outcomes.json": "142b792acbe4fe55012744693813ff7e2475814a86a16acf58651e1a5d0aa2b9",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w6/all_outcomes.json": "144843c62f5d999ed586b321a4d364864e7834e6510cd6e87feaa35e72bc5146",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w6/paired_outcomes.json": "6f648e2fcc740000b1daf895d0bef8a023a71725a6d48868539f46637bd3800e",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w6/paired_outcomes.json": "e2330d06f0a1970ddf42b2a649ec42e05e93f9e24235a1578ce2fd3c053b745d",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w12/summary.json": "60586032db0e68a23aa9e19914b5e3d25c605e9d1cbde141f696ede89323c87f",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w12/summary.json": "65591674effe0dce576223f71f58128a1f14ec62734757598f9600f5fef9e382",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w12/all_outcomes.json": "bf573ec93173f18905eb7566b6ce1325d07c032f74aebf1a3c87d8243c6dd227",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w12/all_outcomes.json": "de3c852661260fef2c495d2157a736ad193d8ec09d9fde31f8c3ad467a975757",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w12/paired_outcomes.json": "7415e9470119211596df1ef3224502bdd900debf0040c4b80c85e68b303a4156",
+    "results/hssc_weibo_3d2d_3h6h12h_v1/interventions/w12/paired_outcomes.json": "d4fe986308bdf6883c2886edfcb782982bb98fdab7c8b2cafb4b35a9a39f4b61",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w24/summary.json": "fda04585f6cde0b345af6db81d30738315d6aed8832b42e5b4fab3dc8fa4f503",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w24/all_outcomes.json": "9213e404997d98570876d298896dfd987842c7fe1481ed7373523901f6b7f4ce",
+    "results/hssc_adaptive_v3_sparse_v1/interventions/w24/paired_outcomes.json": "7f9e385fd5100c927af332bba52409714970a48cc79474ecfc456247b57259dc"
+  },
+  "generated_utc": "2026-10-20T19:53:05.644510+00:00",
+  "original_blm_recomputed": false
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "src/traser/visualization/panels.py",
+    "source": "research/src/opinion_system/hssc_figure_upgrade.py",
+    "source_sha256": "f0653ed889524c196b300a719268ac84554a3d9d872ffecdb02ff4f1cdf3403f",
+    "sha256": "abe3b514255768a6d3bffa449296e38e3803bf0fdcb351a039c357eb6554c1cc",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "panel",
+      "semantic",
+      "ecdf",
+      "scenarios",
+      "supplement"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "a2c3898d0ef81b4b0a6f53bc77d8de217712b97ddd7df063dd21103627da0875",
+    "former_public_path": "src/opinion_system/hssc_figure_upgrade.py"
+  },
+  {
+    "path": "src/traser/visualization/distributions.py",
+    "source": "research/src/opinion_system/hssc_revision_figures.py",
+    "source_sha256": "182a8878004e14a743415618643e7b9427e2f28523fe5fc67ed9fa9bf1dafa66",
+    "sha256": "7ceebc613290bf0a989edf522ea36b57cf294538f5a93f890c70772871bb6c75",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "labelled",
+      "legends",
+      "mean_records",
+      "shapes",
+      "trajectories"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "376f14dd8fa09675d826e3685687645e3ba1de84428cf146b18b22776530d4e1",
+    "former_public_path": "src/opinion_system/hssc_revision_figures.py"
+  },
+  {
+    "path": "src/traser/visualization/layout.py",
+    "source": "research/src/opinion_system/hssc_compact_presentation.py",
+    "source_sha256": "b932b97da181da2736e91a8150674196656a4d72c87d70cce654d987e86bf651",
+    "sha256": "50f6f40d559eade39558038a0fa36ccd236c2db848123b5562237052ff274017",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "compact_save",
+      "latent",
+      "observed"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "2c0175c6a481dc0086fa85de14f603e4f24a98d21ac2acbb7fec56861360de58",
+    "former_public_path": "src/opinion_system/hssc_compact_presentation.py"
+  },
+  {
+    "path": "src/traser/visualization/diagnostics.py",
+    "source": "research/src/opinion_system/weibo_repartition_figures.py",
+    "source_sha256": "0067c097f54ff07239c6c160870c424a75c1688ecce4431d0261e1f6310e1458",
+    "sha256": "2aa83e2d4237f3e2620cc7ef099e644f7a76a988e4c1a01ef82e6c8013935957",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "adapt",
+      "updating",
+      "diagnostics"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "d16b7b2eb9ffd9c7cb2fb8e2b77006fccbcb337bd881b59eff438609e58f2be0",
+    "former_public_path": "src/opinion_system/weibo_repartition_figures.py"
+  },
+  {
+    "path": "src/traser/visualization/style.py",
+    "source": "research/src/opinion_system/hssc_polish_figures.py",
+    "source_sha256": "8585e19bc065dbc861580dc9ef74be22dcefd5411ec9bee6b1799373703b2823",
+    "sha256": "6b285e5c84ad9bae5a14c54bb108d581efe1cdde2c0536d89ef9b2d7cba7c074",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "finish"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "e3d49ca995d45779bbdbfc4743379563cadfae16a8020d3066d4b3de0344e074",
+    "former_public_path": "src/opinion_system/hssc_polish_figures.py"
+  },
+  {
+    "path": "src/traser/visualization/references.py",
+    "source": "research/src/opinion_system/weibo_repartition_reference_authoring.py",
+    "source_sha256": "d44a36b2e7a181fa9a562bf4bcec45a73baf26cd0f09beca48aa4b74dd028a0b",
+    "sha256": "49f852274121e0cac6f307085e0a39a1502e36e8aaf5f80fa971cd1e624ca7e7",
+    "operation": "selected exact definitions; new portable imports",
+    "functions": [
+      "render"
+    ],
+    "classes": null,
+    "initial_extraction_sha256": "464860930a6a4abb5a172b36d9a5ca81a47c7a03eeb50eabc2a559ace056977d",
+    "former_public_path": "src/opinion_system/weibo_repartition_reference_authoring.py"
+  }
+]

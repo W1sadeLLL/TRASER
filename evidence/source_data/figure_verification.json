@@ -1,0 +1,163 @@
+{
+  "updated_figures": [
+    {
+      "name": "hssc_framework",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "3e6a45bd1af619d4db24e05217b53df303f37b51e17d12ced0cc121951555dad"
+    },
+    {
+      "name": "hssc_observed",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "be924c6d15c69fdaa662559db52c95570651d69b01ed76b08b655c832b2497f0"
+    },
+    {
+      "name": "hssc_latent_combined",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "665507d793be4b81d85cf0166e6d66fe0df8e1b70bc968ff2656a31e9e9a0bf7"
+    },
+    {
+      "name": "hssc_semantic_shapes",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "3cce53e5f3701b6783f2cc2c5fc94f59a238d10e74dce924a0df59eb3301edda"
+    },
+    {
+      "name": "hssc_semantic",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "e06a138c81fe34a85b7373e2f194b474f4f8731dd514cdf11b11e47f2cdb1c23"
+    },
+    {
+      "name": "hssc_statistical_references",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "52e261731bd7fda2bb9c693129bf3c73a58f6214fe3ef84a56af274a852b991d"
+    },
+    {
+      "name": "hssc_updating",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "3d9b8e74e09e4344489b451c9aeed18456814e036dd65b3a762d9dba7146f935"
+    },
+    {
+      "name": "hssc_interventions",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "7ef46fcb95f5c03484a0a58176b32f27ff40106fd0542cda971162c8534f5b4f"
+    },
+    {
+      "name": "hssc_update_parameters",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "3b41dad2f2b49f390e220f0ad58701c4d820b728524f11813d242ef4bff68477"
+    },
+    {
+      "name": "hssc_semantic_trajectory_6h",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "6acbc8a0f6baabf589f68fbb8a513dbbf3f2fcc3ce1604912c2b4c2f57d08730"
+    },
+    {
+      "name": "hssc_semantic_trajectory_12h",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "cf66c74ca3bdb6d8aaaf9640e9c9eb1496088a14851ea75877b08ad98ab70308"
+    },
+    {
+      "name": "hssc_semantic_trajectory_24h",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "e76021c67bf1c6722b3aab9d18b67d85e9f345af8f4576920a7e9de1e95cf79c"
+    },
+    {
+      "name": "hssc_origin_diagnostics",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "a3c76a520cb9107445ba0c634710969e5e0ae4c7197a89c5036e5c6177eb6475"
+    },
+    {
+      "name": "hssc_latent_comparison_first",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "9f7b167a9b1639e5fc3708dfe6f9a4bd5983e0a2b7b158a2c6da81046fc2daa9"
+    },
+    {
+      "name": "hssc_latent_comparison_last",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "4ed64a657cfb13b947ec9e671f5e5ff2c5c6580f975e0176e2cd61233d7054a2"
+    },
+    {
+      "name": "hssc_semantic_shapes_first",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "498fa4364a637d5b52e9baf414fbc9b92633c4c3cad725953dd2ae57c5f598cd"
+    },
+    {
+      "name": "hssc_semantic_shapes_last",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "1dee84af42a6a51f13de7772db4685cca50c5dfadec97ac9a7b167ea2397b7c0"
+    },
+    {
+      "name": "hssc_semantic_shapes_all_topics",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "7324fe69e4d6511495a7237404b64d6173c2edc823cdd15e20ee1ffad8db9968"
+    },
+    {
+      "name": "hssc_semantic_shapes_all_emotions",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "24aa9a07ec76211244f1a1fc909f625c151432867b3aa024b4e0cee26643ace6"
+    },
+    {
+      "name": "hssc_injection_all_blm_x",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "ad28e0ba8f58690bb8431468e75b7622ebb4c47d8ea5874eff513b449343d306"
+    },
+    {
+      "name": "hssc_injection_all_hk_weibo",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "102de282c1565f3bd3bf6809e8678a198af40f0b731ea400e9167c6dce21c799"
+    },
+    {
+      "name": "hssc_latent_observed",
+      "font_min_pt": 11.0,
+      "collision_failures": 0,
+      "collision_warnings": 0,
+      "pdf_sha256": "a5d2b26d92ae75d50c65b3228444f2610613455103329ff3cab18a1644af86cd"
+    }
+  ],
+  "unchanged_framework": false,
+  "framework_frequency_label_only": true,
+  "active_pdf_figures": 22,
+  "tex_children": 0,
+  "requires_final_size_visual_review": true
+}
