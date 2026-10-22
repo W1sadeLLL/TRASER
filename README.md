@@ -2,7 +2,7 @@
 
 Research implementation for **Tracking Online Public Opinion Distributions through Representation, HK Dynamics, and Assimilation**.
 
-**Chenhe Cao · Xiaofei Xu · Xiaofei Zhao · Mingxing Chen · Zhen Lu**
+
 
 TRASER follows event-related online expression from normalized text and a frozen latent representation to bounded-confidence distribution dynamics, observation assimilation, one-step forecasts, semantic interpretation and conditional scenarios. This repository contains the current BLM/X and Hong Kong fire Weibo experiments, their published data interfaces, and the numerical evidence used for the paper displays.
 
